@@ -45,10 +45,10 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\Tests\TestFixture\InputTestFixture.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\Tests\TestFixture\WinUserInput.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\Tests\TestFixture\AssemblyInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\Tests\TestFixture\InputTestRuntime.cs" />
+     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\Tests\TestFixture\InputTestFixture.cs" />
      <Folder Include="Library\PackageCache\com.unity.inputsystem@1.7.0\Tests\TestFixture" />
      <None Include="Library\PackageCache\com.unity.inputsystem@1.7.0\Tests\TestFixture\Unity.InputSystem.TestFramework.asmdef" />
      <Reference Include="UnityEngine">
@@ -301,7 +301,7 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>C:\Users\user\KebabParadiseZhiguliDrift\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+     <HintPath>C:\Users\user\Documents\GitHub\kebab-drift\KebabParadiseZhiguliDrift\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

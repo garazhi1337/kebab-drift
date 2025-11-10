@@ -45,12 +45,15 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\EasySuspension.cs" />
-     <Compile Include="Assets\Scripts\CarController.cs" />
+     <Compile Include="Assets\Scripts\CenterOfMass.cs" />
      <Compile Include="Assets\Scripts\RearWheelDrive.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\Sample\RulAndKorobka.cs" />
      <Compile Include="Assets\Sample\CarTelemetryHandler.cs" />
      <Compile Include="Assets\Sample\CarControllerSample.cs" />
+     <Compile Include="Assets\Scripts\EasySuspension.cs" />
+     <Compile Include="Assets\Scripts\RealisticGravity.cs" />
+     <Compile Include="Assets\Scripts\CarController.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
      </Reference>
@@ -253,7 +256,7 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\user\KebabParadiseZhiguliDrift\Library\PackageCache\com.unity.visualscripting@1.9.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\user\Documents\GitHub\kebab-drift\KebabParadiseZhiguliDrift\Library\PackageCache\com.unity.visualscripting@1.9.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -627,13 +630,53 @@
       <Project>{756891d8-8f0b-2337-6fef-a64f6341af48}</Project>
       <Name>Assembly-CSharp-firstpass.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
-      <Project>{c12491c7-8028-902d-c678-777a2ee672bc}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
+    <ProjectReference Include="Unity.XR.Management.Player.csproj">
+      <Project>{1cea6167-7aae-858d-4e83-7fbbfaf68d73}</Project>
+      <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
       <Project>{2d3f4c25-140c-477a-906c-524d9442b0f2}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.ConformanceAutomation.Player.csproj">
+      <Project>{089a5761-e727-b6bc-cdde-9ded387c25d7}</Project>
+      <Name>Unity.XR.OpenXR.Features.ConformanceAutomation.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
+      <Project>{7a6cf4bd-8374-e8ab-ce52-5b4d47260c0e}</Project>
+      <Name>Unity.VisualScripting.Flow.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.CoreUtils.Player.csproj">
+      <Project>{37067dcd-3ee0-2777-927c-c655561cda08}</Project>
+      <Name>Unity.XR.CoreUtils.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Player.csproj">
+      <Project>{2ba57642-ae03-b207-545a-b769152885be}</Project>
+      <Name>Unity.XR.OpenXR.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Player.csproj">
+      <Project>{6f832e35-8a67-6cd8-8b54-e8365fba518b}</Project>
+      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
+      <Project>{ef4524f3-793c-fe3f-606e-cb57f6231d01}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
+      <Project>{1433163b-36b1-001b-3a0e-f6e1463fb628}</Project>
+      <Name>Unity.TextMeshPro.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Player.csproj">
+      <Project>{ba6d303b-87fa-503a-f871-379b15e9bdb5}</Project>
+      <Name>Unity.XR.OpenXR.Features.OculusQuestSupport.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Player.csproj">
+      <Project>{63de1b49-71a5-dc3c-3ac2-f5b9888367c4}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
+      <Project>{c12491c7-8028-902d-c678-777a2ee672bc}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Inputter.Runtime.Player.csproj">
       <Project>{8f9d9e34-430e-ee07-e41d-a9be35f6f7e4}</Project>
@@ -643,6 +686,10 @@
       <Project>{40be1821-3768-119d-7f54-2f2dff31103f}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
+      <Project>{396df788-066e-3494-26c9-908c77bd09cb}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Burst.Player.csproj">
       <Project>{78e57b04-5aab-5588-db42-8e7339498703}</Project>
       <Name>Unity.Burst.Player</Name>
@@ -651,13 +698,13 @@
       <Project>{5d4615e6-60e5-2805-05f0-c9d655b6030c}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
+      <Project>{8e88d2a7-b037-cbc4-1dc7-7f69f95548c4}</Project>
+      <Name>UnityEngine.SpatialTracking.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{b8b1d34c-d75e-890e-e966-6a46f4f344ec}</Project>
       <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{7a6cf4bd-8374-e8ab-ce52-5b4d47260c0e}</Project>
-      <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj">
       <Project>{bc107aab-6a55-75c1-79d0-904f4731e1ac}</Project>
@@ -675,17 +722,9 @@
       <Project>{350aecce-da66-6cfd-d952-1ce84337bea2}</Project>
       <Name>Unity.InputSystem.ForUI.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
-      <Project>{ef4524f3-793c-fe3f-606e-cb57f6231d01}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
       <Project>{7744c2bf-6442-6b3e-1ae2-be68792311f8}</Project>
       <Name>Unity.Mathematics.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{1433163b-36b1-001b-3a0e-f6e1463fb628}</Project>
-      <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.Player.csproj">
       <Project>{17322d46-298a-2871-fb29-81b43949f52d}</Project>

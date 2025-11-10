@@ -1,14 +1,16 @@
 ﻿using System;
 using UnityEngine;
 
-public class RearWheelDrive : MonoBehaviour {
+public class RearWheelDrive : MonoBehaviour
+{
 
+	[SerializeField] private RulAndKorobka _rulAndKorobka;
 	private WheelCollider[] wheels;
 
 	public float maxAngle = 30;
 	public float maxTorque = 85;
-	public float[] gearRatios = { 3.667f, 2.100f, 1.361f, 1.000f, 0.821f, -3.530f };
-	public float differentialRatio = 4.1f; // Главная пара
+	public float[] gearRatios = { 3.667f, 2.100f, 1.361f, 1.000f, 0.821f, -3.530f }; //это сказал дипсик чтобы машина норм ехала на разных передачах
+	public float differentialRatio = 4.1f;
 	public int currentGear = 0; // Текущая передача
 	public GameObject wheelShape;
 	private float _currentVelocity;
@@ -16,6 +18,8 @@ public class RearWheelDrive : MonoBehaviour {
 	private float _tormoz;
 	private float _clutch;
 	private Rigidbody _rb;
+	
+	//макс скорости для передач
 	private const int FIRST_SPEED_MAX = 25;
 	private const int SECOND_SPEED_MAX = 45;
 	private const int THIRD_SPEED_MAX = 70;
@@ -57,9 +61,19 @@ public class RearWheelDrive : MonoBehaviour {
 
 	private void HandleMovement()
 	{
-		float angle = maxAngle * Input.GetAxis("Horizontal");
-		float torque = maxTorque * Input.GetAxis("Vertical") * differentialRatio * gearRatios[currentGear]; //заменить на газ
-		Debug.Log(Input.GetAxis("Vertical"));
+		float angle;
+		float torque;
+		try
+		{
+			angle = maxAngle * _rulAndKorobka.steerValue;
+			torque = maxTorque * _rulAndKorobka.throttleValue * differentialRatio * gearRatios[currentGear];
+		}
+		catch (Exception e)
+		{
+			angle = maxAngle * Input.GetAxis("Horizontal");
+			torque = maxTorque * Input.GetAxis("Vertical") * differentialRatio * gearRatios[currentGear];
+		}
+
 
 		foreach (WheelCollider wheel in wheels)
 		{

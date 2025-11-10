@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\user\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\user\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_KebabParadiseZhiguliDrift.-643088314.00" t="ExcludeRecursive" />
-    <e p="C:\Users\user\KebabParadiseZhiguliDrift" t="IncludeRecursive">
+    <e p="C:\Users\user\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_KebabParadiseZhiguliDrift.-1147503792.00" t="ExcludeRecursive" />
+    <e p="C:\Users\user\Documents\GitHub\kebab-drift\KebabParadiseZhiguliDrift" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.Player.csproj" t="IncludeRecursive" />
@@ -54,11 +54,14 @@
         <e p="Sample" t="Include">
           <e p="CarControllerSample.cs" t="Include" />
           <e p="CarTelemetryHandler.cs" t="Include" />
+          <e p="RulAndKorobka.cs" t="Include" />
         </e>
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CarController.cs" t="Include" />
+          <e p="CenterOfMass.cs" t="Include" />
           <e p="EasySuspension.cs" t="Include" />
+          <e p="RealisticGravity.cs" t="Include" />
           <e p="RearWheelDrive.cs" t="Include" />
         </e>
         <e p="Settings" t="Include" />
@@ -70,6 +73,15 @@
               <e p="ReadmeEditor.cs" t="Include" />
             </e>
             <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+        <e p="XR" t="Include">
+          <e p="Loaders" t="Include" />
+          <e p="Settings" t="Include" />
+        </e>
+        <e p="XRI" t="Include">
+          <e p="Settings" t="Include">
+            <e p="Resources" t="Include" />
           </e>
         </e>
       </e>
@@ -7490,6 +7502,986 @@
             <e p="ValidationConfig.json" t="Include" />
             <e p="ValidationExceptions.json" t="Include" />
           </e>
+          <e p="com.unity.xr.core-utils@2.2.3" t="Include">
+            <e p="Editor" t="Include">
+              <e p="AssemblyInfo.cs" t="Include" />
+              <e p="Datums" t="Include">
+                <e p="AnimationCurveDatumPropertyDrawer.cs" t="Include" />
+                <e p="DatumPropertyDrawer.cs" t="Include" />
+                <e p="FloatDatumPropertyDrawer.cs" t="Include" />
+                <e p="IntDatumPropertyDrawer.cs" t="Include" />
+                <e p="StringDatumPropertyDrawer.cs" t="Include" />
+              </e>
+              <e p="EditorPrefsUtils.cs" t="Include" />
+              <e p="EditorScriptableSettings.cs" t="Include" />
+              <e p="EditorUtils.cs" t="Include" />
+              <e p="GUI" t="Include">
+                <e p="EnumDisplayPropertyDrawer.cs" t="Include" />
+                <e p="FlagsPropertyDrawer.cs" t="Include" />
+                <e p="ReadOnlyPropertyDrawer.cs" t="Include" />
+              </e>
+              <e p="ProjectValidation" t="Include">
+                <e p="BuildValidationRule.cs" t="Include" />
+                <e p="BuildValidator.cs" t="Include" />
+                <e p="PackageVersion.cs" t="Include" />
+                <e p="PackageVersionUtility.cs" t="Include" />
+                <e p="ProjectValidationDrawer.cs" t="Include" />
+                <e p="ProjectValidationSettingsProvider.cs" t="Include" />
+              </e>
+              <e p="ScriptableSettingsInitializer.cs" t="Include" />
+              <e p="ScriptableSettingsProvider.cs" t="Include" />
+              <e p="Unity.XR.CoreUtils.Editor.asmdef" t="Include" />
+              <e p="XROriginEditor.cs" t="Include" />
+            </e>
+            <e p="package.json" t="Include" />
+            <e p="Runtime" t="Include">
+              <e p="ARTrackablesParentTransformChangedEventArgs.cs" t="Include" />
+              <e p="AssemblyInfo.cs" t="Include" />
+              <e p="Attributes" t="Include">
+                <e p="EnumDisplayAttribute.cs" t="Include" />
+                <e p="FlagsPropertyAttribute.cs" t="Include" />
+                <e p="ReadOnlyAttribute.cs" t="Include" />
+                <e p="ScriptableSettingsPathAttribute.cs" t="Include" />
+              </e>
+              <e p="Bindings" t="Include">
+                <e p="BindingsGroup.cs" t="Include" />
+                <e p="EventBinding.cs" t="Include" />
+                <e p="IEventBinding.cs" t="Include" />
+                <e p="Variables" t="Include">
+                  <e p="BindableEnum.cs" t="Include" />
+                  <e p="BindableVariable.cs" t="Include" />
+                  <e p="BindableVariableAlloc.cs" t="Include" />
+                  <e p="BindableVariableBase.cs" t="Include" />
+                  <e p="BindableVariableTaskPredicate.cs" t="Include" />
+                  <e p="IReadOnlyBindableVariable.cs" t="Include" />
+                </e>
+              </e>
+              <e p="BoundsUtils.cs" t="Include" />
+              <e p="CachedComponentFilter.cs" t="Include" />
+              <e p="CollectionPool.cs" t="Include" />
+              <e p="Collections" t="Include">
+                <e p="HashSetList.cs" t="Include" />
+              </e>
+              <e p="ComponentUtils.cs" t="Include" />
+              <e p="Datums" t="Include">
+                <e p="AnimationCurveDatum.cs" t="Include" />
+                <e p="AnimationCurveDatumProperty.cs" t="Include" />
+                <e p="Datum.cs" t="Include" />
+                <e p="DatumProperty.cs" t="Include" />
+                <e p="FloatDatum.cs" t="Include" />
+                <e p="FloatDatumProperty.cs" t="Include" />
+                <e p="IntDatum.cs" t="Include" />
+                <e p="IntDatumProperty.cs" t="Include" />
+                <e p="StringDatum.cs" t="Include" />
+                <e p="StringDatumProperty.cs" t="Include" />
+              </e>
+              <e p="DebugDraw.cs" t="Include" />
+              <e p="EnumValues.cs" t="Include" />
+              <e p="Extensions" t="Include">
+                <e p="BoundsExtensions.cs" t="Include" />
+                <e p="CameraExtensions.cs" t="Include" />
+                <e p="CollectionExtensions.cs" t="Include" />
+                <e p="DictionaryExtensions.cs" t="Include" />
+                <e p="GameObjectExtensions.cs" t="Include" />
+                <e p="GuidExtensions.cs" t="Include" />
+                <e p="HashSetExtensions.cs" t="Include" />
+                <e p="LayerMaskExtensions.cs" t="Include" />
+                <e p="ListExtensions.cs" t="Include" />
+                <e p="MonoBehaviourExtensions.cs" t="Include" />
+                <e p="PoseExtensions.cs" t="Include" />
+                <e p="QuaternionExtensions.cs" t="Include" />
+                <e p="StopwatchExtensions.cs" t="Include" />
+                <e p="StringExtensions.cs" t="Include" />
+                <e p="TransformExtensions.cs" t="Include" />
+                <e p="TypeExtensions.cs" t="Include" />
+                <e p="UnityEventExtensions.cs" t="Include" />
+                <e p="Vector2Extensions.cs" t="Include" />
+                <e p="Vector3Extensions.cs" t="Include" />
+              </e>
+              <e p="GameObjectUtils.cs" t="Include" />
+              <e p="GeometryUtils.cs" t="Include" />
+              <e p="GUI" t="Include">
+                <e p="ScreenGUIUtils.cs" t="Include" />
+              </e>
+              <e p="GuidUtil.cs" t="Include" />
+              <e p="HashCodeUtil.cs" t="Include" />
+              <e p="MaterialUtils.cs" t="Include" />
+              <e p="MathUtility.cs" t="Include" />
+              <e p="NativeArrayUtils.cs" t="Include" />
+              <e p="ObjectPool.cs" t="Include" />
+              <e p="OnDestroyNotifier.cs" t="Include" />
+              <e p="ReflectionUtils.cs" t="Include" />
+              <e p="ScriptableSettings.cs" t="Include" />
+              <e p="ScriptableSettingsBase.cs" t="Include" />
+              <e p="SerializableGuid.cs" t="Include" />
+              <e p="SerializableGuidUtil.cs" t="Include" />
+              <e p="TextureUtils.cs" t="Include" />
+              <e p="UndoBlock.cs" t="Include" />
+              <e p="Unity.XR.CoreUtils.asmdef" t="Include" />
+              <e p="UnityObjectUtils.cs" t="Include" />
+              <e p="XRLoggingUtils.cs" t="Include" />
+              <e p="XROrigin.cs" t="Include" />
+            </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Unity.XR.CoreUtils.EditorTests.asmdef" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="Scenes" t="Include" />
+                <e p="Scripts" t="Include" />
+                <e p="Unity.XR.CoreUtils.Tests.asmdef" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="com.unity.xr.interaction.toolkit@2.5.4" t="Include">
+            <e p="Editor" t="Include">
+              <e p="AR" t="Include">
+                <e p="Interactables" t="Include">
+                  <e p="ARAnnotationInteractableEditor.cs" t="Include" />
+                  <e p="ARBaseGestureInteractableEditor.cs" t="Include" />
+                  <e p="ARPlacementInteractableEditor.cs" t="Include" />
+                  <e p="ARRotationInteractableEditor.cs" t="Include" />
+                  <e p="ARScaleInteractableEditor.cs" t="Include" />
+                  <e p="ARSelectionInteractableEditor.cs" t="Include" />
+                  <e p="ARTranslationInteractableEditor.cs" t="Include" />
+                </e>
+                <e p="Interactors" t="Include">
+                  <e p="ARGestureInteractorEditor.cs" t="Include" />
+                </e>
+              </e>
+              <e p="AssemblyInfo.cs" t="Include" />
+              <e p="BaseInteractionEditor.cs" t="Include" />
+              <e p="CreateUtils.cs" t="Include" />
+              <e p="Datums" t="Include">
+                <e p="AudioAffordanceThemeDatumPropertyDrawer.cs" t="Include" />
+                <e p="ColorAffordanceThemeDatumPropertyDrawer.cs" t="Include" />
+                <e p="FloatAffordanceThemeDatumPropertyDrawer.cs" t="Include" />
+                <e p="FollowPresetDatumPropertyDrawer.cs" t="Include" />
+                <e p="Vector2AffordanceThemeDatumPropertyDrawer.cs" t="Include" />
+                <e p="Vector3AffordanceThemeDatumPropertyDrawer.cs" t="Include" />
+                <e p="Vector4AffordanceThemeDatumPropertyDrawer.cs" t="Include" />
+              </e>
+              <e p="Debugger" t="Include">
+                <e p="XRInputDevicesTreeView.cs" t="Include" />
+                <e p="XRInteractablesTreeView.cs" t="Include" />
+                <e p="XRInteractionDebuggerWindow.cs" t="Include" />
+                <e p="XRInteractorsTreeView.cs" t="Include" />
+                <e p="XRTargetEvaluatorsScoreTreeView.cs" t="Include" />
+                <e p="XRTargetFiltersTreeView.cs" t="Include" />
+              </e>
+              <e p="Inputs" t="Include">
+                <e p="Simulation" t="Include">
+                  <e p="XRDeviceSimulatorEditor.cs" t="Include" />
+                  <e p="XRDeviceSimulatorSettingsEditor.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Interaction" t="Include">
+                <e p="Controllers" t="Include">
+                  <e p="ActionBasedControllerEditor.cs" t="Include" />
+                  <e p="XRBaseControllerEditor.cs" t="Include" />
+                  <e p="XRBaseControllerEditor.deprecated.cs" t="Include" />
+                  <e p="XRControllerEditor.cs" t="Include" />
+                  <e p="XRControllerRecorderEditor.cs" t="Include" />
+                  <e p="XRControllerRecordingEditor.cs" t="Include" />
+                </e>
+                <e p="EventMigrationUtility.deprecated.cs" t="Include" />
+                <e p="Filtering" t="Include">
+                  <e p="Poke" t="Include">
+                    <e p="PokeThresholdDatumPropertyDrawer.cs" t="Include" />
+                  </e>
+                  <e p="Target" t="Include">
+                    <e p="XRMissingEvaluatorTypeList.cs" t="Include" />
+                    <e p="XRTargetEvaluatorEnabledDrawer.cs" t="Include" />
+                    <e p="XRTargetEvaluatorList.cs" t="Include" />
+                    <e p="XRTargetFilterEditor.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Interactables" t="Include">
+                  <e p="XRBaseInteractableEditor.cs" t="Include" />
+                  <e p="XRBaseInteractableEditor.deprecated.cs" t="Include" />
+                  <e p="XRGrabInteractableEditor.cs" t="Include" />
+                  <e p="XRInteractableSnapVolumeEditor.cs" t="Include" />
+                </e>
+                <e p="Interactors" t="Include">
+                  <e p="Visual" t="Include">
+                    <e p="XRInteractorLineVisualEditor.cs" t="Include" />
+                    <e p="XRInteractorReticleVisualEditor.cs" t="Include" />
+                  </e>
+                  <e p="XRBaseControllerInteractorEditor.cs" t="Include" />
+                  <e p="XRBaseInteractorEditor.cs" t="Include" />
+                  <e p="XRBaseInteractorEditor.deprecated.cs" t="Include" />
+                  <e p="XRDirectInteractorEditor.cs" t="Include" />
+                  <e p="XRGazeInteractorEditor.cs" t="Include" />
+                  <e p="XRInteractionGroupEditor.cs" t="Include" />
+                  <e p="XRRayInteractorEditor.cs" t="Include" />
+                  <e p="XRSocketInteractorEditor.cs" t="Include" />
+                </e>
+                <e p="Layers" t="Include">
+                  <e p="InteractionLayerMaskDrawer.cs" t="Include" />
+                  <e p="InteractionLayerSettingsEditor.cs" t="Include" />
+                  <e p="InteractionLayerUpdater.cs" t="Include" />
+                </e>
+                <e p="Transformers" t="Include">
+                  <e p="XRDualGrabFreeTransformerEditor.cs" t="Include" />
+                </e>
+                <e p="XRInteractionManagerEditor.cs" t="Include" />
+              </e>
+              <e p="Locomotion" t="Include">
+                <e p="Climb" t="Include">
+                  <e p="ClimbInteractableEditor.cs" t="Include" />
+                  <e p="ClimbSettingsDatumPropertyDrawer.cs" t="Include" />
+                  <e p="ClimbSettingsPropertyDrawer.cs" t="Include" />
+                </e>
+                <e p="SnapTurn" t="Include">
+                  <e p="DeviceBasedSnapTurnProviderEditor.cs" t="Include" />
+                </e>
+                <e p="Teleportation" t="Include">
+                  <e p="BaseTeleportationInteractableEditor.cs" t="Include" />
+                  <e p="TeleportationAnchorEditor.cs" t="Include" />
+                  <e p="TeleportationAreaEditor.cs" t="Include" />
+                </e>
+                <e p="TunnelingVignetteControllerEditor.cs" t="Include" />
+              </e>
+              <e p="SettingsProvider" t="Include">
+                <e p="XRInteractionEditorSettings.cs" t="Include" />
+                <e p="XRInteractionEditorSettingsEditor.cs" t="Include" />
+                <e p="XRInteractionToolkitSettingsProvider.cs" t="Include" />
+              </e>
+              <e p="Unity.XR.Interaction.Toolkit.Editor.asmdef" t="Include" />
+              <e p="Utilities" t="Include">
+                <e p="PackageManagerEditorHelper.cs" t="Include" />
+                <e p="PositionHandleUtility.cs" t="Include" />
+                <e p="ReadOnlyReorderableList.cs" t="Include" />
+                <e p="RequireInterfaceDrawer.cs" t="Include" />
+                <e p="XRInteractionEditorGUI.cs" t="Include" />
+                <e p="XRInteractionEditorUtility.cs" t="Include" />
+                <e p="XRTargetEvaluatorEditorUtility.cs" t="Include" />
+              </e>
+              <e p="XR" t="Include">
+                <e p="XRRigEditor.deprecated.cs" t="Include" />
+              </e>
+              <e p="XRMainCameraFactory.cs" t="Include" />
+            </e>
+            <e p="package.json" t="Include" />
+            <e p="Runtime" t="Include">
+              <e p="AffordanceSystem" t="Include">
+                <e p="Jobs" t="Include">
+                  <e p="ColorTweenJob.cs" t="Include" />
+                  <e p="FloatTweenJob.cs" t="Include" />
+                  <e p="ITweenJob.cs" t="Include" />
+                  <e p="TweenJobData.cs" t="Include" />
+                </e>
+                <e p="Receiver" t="Include">
+                  <e p="Audio" t="Include">
+                    <e p="AudioAffordanceReceiver.cs" t="Include" />
+                  </e>
+                  <e p="BaseAffordanceStateReceiver.cs" t="Include" />
+                  <e p="BaseAsyncAffordanceStateReceiver.cs" t="Include" />
+                  <e p="BaseSynchronousAffordanceStateReceiver.cs" t="Include" />
+                  <e p="IAffordanceStateReceiver.cs" t="Include" />
+                  <e p="IAsyncAffordanceStateReceiver.cs" t="Include" />
+                  <e p="ISynchronousAffordanceStateReceiver.cs" t="Include" />
+                  <e p="Primitives" t="Include">
+                    <e p="ColorAffordanceReceiver.cs" t="Include" />
+                    <e p="FloatAffordanceReceiver.cs" t="Include" />
+                    <e p="QuaternionAffordanceReceiver.cs" t="Include" />
+                    <e p="QuaternionEulerAffordanceReceiver.cs" t="Include" />
+                    <e p="Vector2AffordanceReceiver.cs" t="Include" />
+                    <e p="Vector3AffordanceReceiver.cs" t="Include" />
+                    <e p="Vector4AffordanceReceiver.cs" t="Include" />
+                  </e>
+                  <e p="Rendering" t="Include">
+                    <e p="BlendShapeAffordanceReceiver.cs" t="Include" />
+                    <e p="ColorGradientLineRendererAffordanceReceiver.cs" t="Include" />
+                    <e p="ColorMaterialPropertyAffordanceReceiver.cs" t="Include" />
+                    <e p="FloatMaterialPropertyAffordanceReceiver.cs" t="Include" />
+                    <e p="Vector2MaterialPropertyAffordanceReceiver.cs" t="Include" />
+                    <e p="Vector3MaterialPropertyAffordanceReceiver.cs" t="Include" />
+                    <e p="Vector4MaterialPropertyAffordanceReceiver.cs" t="Include" />
+                  </e>
+                  <e p="Transformation" t="Include">
+                    <e p="UniformTransformScaleAffordanceReceiver.cs" t="Include" />
+                  </e>
+                  <e p="UI" t="Include">
+                    <e p="ImageColorAffordanceReceiver.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Rendering" t="Include">
+                  <e p="MaterialHelperBase.cs" t="Include" />
+                  <e p="MaterialInstanceHelper.cs" t="Include" />
+                  <e p="MaterialPropertyBlockHelper.cs" t="Include" />
+                </e>
+                <e p="State" t="Include">
+                  <e p="Data" t="Include">
+                    <e p="AffordanceStateData.cs" t="Include" />
+                    <e p="AffordanceStateShortcuts.cs" t="Include" />
+                  </e>
+                  <e p="Provider" t="Include">
+                    <e p="BaseAffordanceStateProvider.cs" t="Include" />
+                    <e p="XRInteractableAffordanceStateProvider.cs" t="Include" />
+                    <e p="XRInteractorAffordanceStateProvider.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Theme" t="Include">
+                  <e p="Audio" t="Include">
+                    <e p="AudioAffordanceThemeDatum.cs" t="Include" />
+                  </e>
+                  <e p="BaseAffordanceTheme.cs" t="Include" />
+                  <e p="Primitives" t="Include">
+                    <e p="ColorAffordanceThemeDatum.cs" t="Include" />
+                    <e p="FloatAffordanceThemeDatum.cs" t="Include" />
+                    <e p="Vector2AffordanceThemeDatum.cs" t="Include" />
+                    <e p="Vector3AffordanceThemeDatum.cs" t="Include" />
+                    <e p="Vector4AffordanceThemeDatum.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="AR" t="Include">
+                <e p="Gestures" t="Include">
+                  <e p="DragGesture.cs" t="Include" />
+                  <e p="DragGesture.deprecated.cs" t="Include" />
+                  <e p="DragGestureRecognizer.cs" t="Include" />
+                  <e p="Gesture.cs" t="Include" />
+                  <e p="Gesture.deprecated.cs" t="Include" />
+                  <e p="GestureRecognizer.cs" t="Include" />
+                  <e p="GestureRecognizer.deprecated.cs" t="Include" />
+                  <e p="GestureTouchesUtility.cs" t="Include" />
+                  <e p="PinchGesture.cs" t="Include" />
+                  <e p="PinchGestureRecognizer.cs" t="Include" />
+                  <e p="TapGesture.cs" t="Include" />
+                  <e p="TapGestureRecognizer.cs" t="Include" />
+                  <e p="TwistGesture.cs" t="Include" />
+                  <e p="TwistGestureRecognizer.cs" t="Include" />
+                  <e p="TwoFingerDragGesture.cs" t="Include" />
+                  <e p="TwoFingerDragGesture.deprecated.cs" t="Include" />
+                  <e p="TwoFingerDragGestureRecognizer.cs" t="Include" />
+                </e>
+                <e p="Interactables" t="Include">
+                  <e p="ARAnnotationInteractable.cs" t="Include" />
+                  <e p="ARBaseGestureInteractable.cs" t="Include" />
+                  <e p="ARBaseGestureInteractable.deprecated.cs" t="Include" />
+                  <e p="ARPlacementInteractable.cs" t="Include" />
+                  <e p="ARPlacementInteractable.deprecated.cs" t="Include" />
+                  <e p="ARRotationInteractable.cs" t="Include" />
+                  <e p="ARScaleInteractable.cs" t="Include" />
+                  <e p="ARSelectionInteractable.cs" t="Include" />
+                  <e p="ARSelectionInteractable.deprecated.cs" t="Include" />
+                  <e p="ARTranslationInteractable.cs" t="Include" />
+                  <e p="GestureTransformationUtility.cs" t="Include" />
+                  <e p="GestureTransformationUtility.deprecated.cs" t="Include" />
+                </e>
+                <e p="Interactors" t="Include">
+                  <e p="ARGestureInteractor.cs" t="Include" />
+                  <e p="ARGestureInteractor.deprecated.cs" t="Include" />
+                  <e p="IARInteractor.cs" t="Include" />
+                </e>
+                <e p="TouchscreenGestureInputController.cs" t="Include" />
+                <e p="TouchscreenGestureInputControllerState.cs" t="Include" />
+                <e p="TouchscreenGestureInputLayoutLoader.cs" t="Include" />
+              </e>
+              <e p="AssemblyInfo.cs" t="Include" />
+              <e p="Inputs" t="Include">
+                <e p="CardinalUtility.cs" t="Include" />
+                <e p="Composites" t="Include">
+                  <e p="FallbackComposite.cs" t="Include" />
+                </e>
+                <e p="InputActionManager.cs" t="Include" />
+                <e p="InputActionPropertyExtensions.cs" t="Include" />
+                <e p="Interactions" t="Include">
+                  <e p="SectorInteraction.cs" t="Include" />
+                </e>
+                <e p="Simulation" t="Include">
+                  <e p="Hands" t="Include">
+                    <e p="HandExpressionCapture.cs" t="Include" />
+                    <e p="HandExpressionName.cs" t="Include" />
+                    <e p="XRDeviceSimulatorHandsProvider.cs" t="Include" />
+                    <e p="XRDeviceSimulatorHandsSubsystem.cs" t="Include" />
+                    <e p="XRSimulatedHandState.cs" t="Include" />
+                  </e>
+                  <e p="SimulatedInputLayoutLoader.cs" t="Include" />
+                  <e p="XRDeviceSimulator.cs" t="Include" />
+                  <e p="XRDeviceSimulatorLoader.cs" t="Include" />
+                  <e p="XRDeviceSimulatorSettings.cs" t="Include" />
+                  <e p="XRSimulatedController.cs" t="Include" />
+                  <e p="XRSimulatedControllerState.cs" t="Include" />
+                  <e p="XRSimulatedHMD.cs" t="Include" />
+                  <e p="XRSimulatedHMDState.cs" t="Include" />
+                </e>
+                <e p="XRHandSkeletonPokeDisplacer.cs" t="Include" />
+                <e p="XRInputModalityManager.cs" t="Include" />
+                <e p="XRInputTrackingAggregator.cs" t="Include" />
+                <e p="XRTransformStabilizer.cs" t="Include" />
+              </e>
+              <e p="Interaction" t="Include">
+                <e p="Attributes" t="Include">
+                  <e p="CanFocusMultipleAttribute.cs" t="Include" />
+                  <e p="CanSelectMultipleAttribute.cs" t="Include" />
+                  <e p="XRTargetEvaluatorEnabledAttribute.cs" t="Include" />
+                </e>
+                <e p="Controllers" t="Include">
+                  <e p="ActionBasedController.cs" t="Include" />
+                  <e p="ActionBasedController.deprecated.cs" t="Include" />
+                  <e p="IXRScaleValueProvider.cs" t="Include" />
+                  <e p="XRBaseController.cs" t="Include" />
+                  <e p="XRBaseController.deprecated.cs" t="Include" />
+                  <e p="XRController.cs" t="Include" />
+                  <e p="XRControllerRecorder.cs" t="Include" />
+                  <e p="XRControllerRecording.cs" t="Include" />
+                  <e p="XRControllerRecording.deprecated.cs" t="Include" />
+                  <e p="XRControllerState.cs" t="Include" />
+                  <e p="XRControllerState.deprecated.cs" t="Include" />
+                  <e p="XRScreenSpaceController.cs" t="Include" />
+                  <e p="XRScreenSpaceController.deprecated.cs" t="Include" />
+                </e>
+                <e p="Filtering" t="Include">
+                  <e p="Hover" t="Include">
+                    <e p="IXRHoverFilter.cs" t="Include" />
+                  </e>
+                  <e p="InteractionStrength" t="Include">
+                    <e p="IXRInteractionStrengthFilter.cs" t="Include" />
+                  </e>
+                  <e p="IXRFilterList.cs" t="Include" />
+                  <e p="Poke" t="Include">
+                    <e p="IMultiPokeStateDataProvider.cs" t="Include" />
+                    <e p="IPokeStateDataProvider.cs" t="Include" />
+                    <e p="IXRPokeFilter.cs" t="Include" />
+                    <e p="PokeStateData.cs" t="Include" />
+                    <e p="PokeThresholdData.cs" t="Include" />
+                    <e p="PokeThresholdDatum.cs" t="Include" />
+                    <e p="PokeThresholdDatumProperty.cs" t="Include" />
+                    <e p="XRPokeFilter.cs" t="Include" />
+                    <e p="XRPokeLogic.cs" t="Include" />
+                  </e>
+                  <e p="Select" t="Include">
+                    <e p="IXRSelectFilter.cs" t="Include" />
+                  </e>
+                  <e p="Target" t="Include">
+                    <e p="Evaluators" t="Include">
+                      <e p="IXRTargetEvaluatorLinkable.cs" t="Include" />
+                      <e p="XRAngleGazeEvaluator.cs" t="Include" />
+                      <e p="XRDistanceEvaluator.cs" t="Include" />
+                      <e p="XRLastSelectedEvaluator.cs" t="Include" />
+                      <e p="XRTargetEvaluator.cs" t="Include" />
+                    </e>
+                    <e p="Filters" t="Include">
+                      <e p="IXRTargetFilter.cs" t="Include" />
+                      <e p="XRBaseTargetFilter.cs" t="Include" />
+                      <e p="XRTargetFilter.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
+                <e p="Interactables" t="Include">
+                  <e p="DistanceInfo.cs" t="Include" />
+                  <e p="IXRActivateInteractable.cs" t="Include" />
+                  <e p="IXRFocusInteractable.cs" t="Include" />
+                  <e p="IXRHoverInteractable.cs" t="Include" />
+                  <e p="IXRInteractable.cs" t="Include" />
+                  <e p="IXRInteractionStrengthInteractable.cs" t="Include" />
+                  <e p="IXRSelectInteractable.cs" t="Include" />
+                  <e p="Visual" t="Include">
+                    <e p="XRTintInteractableVisual.cs" t="Include" />
+                  </e>
+                  <e p="XRBaseInteractable.cs" t="Include" />
+                  <e p="XRBaseInteractable.deprecated.cs" t="Include" />
+                  <e p="XRGrabInteractable.cs" t="Include" />
+                  <e p="XRGrabInteractable.deprecated.cs" t="Include" />
+                  <e p="XRInteractableSnapVolume.cs" t="Include" />
+                  <e p="XRSimpleInteractable.cs" t="Include" />
+                </e>
+                <e p="Interactors" t="Include">
+                  <e p="IXRActivateInteractor.cs" t="Include" />
+                  <e p="IXRGroupMember.cs" t="Include" />
+                  <e p="IXRHoverInteractor.cs" t="Include" />
+                  <e p="IXRInteractionGroup.cs" t="Include" />
+                  <e p="IXRInteractionOverrideGroup.cs" t="Include" />
+                  <e p="IXRInteractionStrengthInteractor.cs" t="Include" />
+                  <e p="IXRInteractor.cs" t="Include" />
+                  <e p="IXRRayProvider.cs" t="Include" />
+                  <e p="IXRSelectInteractor.cs" t="Include" />
+                  <e p="IXRTargetPriorityInteractor.cs" t="Include" />
+                  <e p="Visual" t="Include">
+                    <e p="IXRCustomReticleProvider.cs" t="Include" />
+                    <e p="IXRReticleDirectionProvider.cs" t="Include" />
+                    <e p="XRInteractorLineVisual.cs" t="Include" />
+                    <e p="XRInteractorReticleVisual.cs" t="Include" />
+                  </e>
+                  <e p="XRBaseControllerInteractor.cs" t="Include" />
+                  <e p="XRBaseControllerInteractor.deprecated.cs" t="Include" />
+                  <e p="XRBaseInteractor.cs" t="Include" />
+                  <e p="XRBaseInteractor.deprecated.cs" t="Include" />
+                  <e p="XRDirectInteractor.cs" t="Include" />
+                  <e p="XRDirectInteractor.deprecated.cs" t="Include" />
+                  <e p="XRGazeInteractor.cs" t="Include" />
+                  <e p="XRInteractionGroup.cs" t="Include" />
+                  <e p="XRPokeInteractor.cs" t="Include" />
+                  <e p="XRRayInteractor.cs" t="Include" />
+                  <e p="XRRayInteractor.deprecated.cs" t="Include" />
+                  <e p="XRSocketInteractor.cs" t="Include" />
+                  <e p="XRSocketInteractor.deprecated.cs" t="Include" />
+                </e>
+                <e p="Layers" t="Include">
+                  <e p="InteractionLayerMask.cs" t="Include" />
+                  <e p="InteractionLayerSettings.cs" t="Include" />
+                </e>
+                <e p="Overrides" t="Include">
+                  <e p="IXRAimAssist.cs" t="Include" />
+                  <e p="IXROverridesGazeAutoSelect.cs" t="Include" />
+                  <e p="XRGazeAssistance.cs" t="Include" />
+                </e>
+                <e p="Transformers" t="Include">
+                  <e p="ARTransformer.cs" t="Include" />
+                  <e p="IXRDropTransformer.cs" t="Include" />
+                  <e p="IXRGrabTransformer.cs" t="Include" />
+                  <e p="XRBaseGrabTransformer.cs" t="Include" />
+                  <e p="XRDualGrabFreeTransformer.cs" t="Include" />
+                  <e p="XRGeneralGrabTransformer.cs" t="Include" />
+                  <e p="XRLegacyGrabTransformer.cs" t="Include" />
+                  <e p="XRSingleGrabFreeTransformer.cs" t="Include" />
+                  <e p="XRSocketGrabTransformer.cs" t="Include" />
+                </e>
+                <e p="XRInteractionEvents.cs" t="Include" />
+                <e p="XRInteractionEvents.deprecated.cs" t="Include" />
+                <e p="XRInteractionManager.cs" t="Include" />
+                <e p="XRInteractionManager.deprecated.cs" t="Include" />
+                <e p="XRInteractionUpdateOrder.cs" t="Include" />
+              </e>
+              <e p="Locomotion" t="Include">
+                <e p="CharacterControllerDriver.cs" t="Include" />
+                <e p="CharacterControllerDriver.deprecated.cs" t="Include" />
+                <e p="Climb" t="Include">
+                  <e p="ClimbInteractable.cs" t="Include" />
+                  <e p="ClimbProvider.cs" t="Include" />
+                  <e p="ClimbSettings.cs" t="Include" />
+                  <e p="ClimbSettingsDatum.cs" t="Include" />
+                  <e p="ClimbSettingsDatumProperty.cs" t="Include" />
+                </e>
+                <e p="ConstrainedMoveProvider.cs" t="Include" />
+                <e p="Continuous" t="Include">
+                  <e p="ActionBasedContinuousMoveProvider.cs" t="Include" />
+                  <e p="ActionBasedContinuousTurnProvider.cs" t="Include" />
+                  <e p="ContinuousMoveProviderBase.cs" t="Include" />
+                  <e p="ContinuousTurnProviderBase.cs" t="Include" />
+                  <e p="DeviceBasedContinuousMoveProvider.cs" t="Include" />
+                  <e p="DeviceBasedContinuousTurnProvider.cs" t="Include" />
+                </e>
+                <e p="Grab" t="Include">
+                  <e p="GrabMoveProvider.cs" t="Include" />
+                  <e p="TwoHandedGrabMoveProvider.cs" t="Include" />
+                </e>
+                <e p="LocomotionProvider.cs" t="Include" />
+                <e p="LocomotionProvider.deprecated.cs" t="Include" />
+                <e p="LocomotionSystem.cs" t="Include" />
+                <e p="LocomotionSystem.deprecated.cs" t="Include" />
+                <e p="SnapTurn" t="Include">
+                  <e p="ActionBasedSnapTurnProvider.cs" t="Include" />
+                  <e p="DeviceBasedSnapTurnProvider.cs" t="Include" />
+                  <e p="SnapTurnProviderBase.cs" t="Include" />
+                </e>
+                <e p="Teleportation" t="Include">
+                  <e p="BaseTeleportationInteractable.cs" t="Include" />
+                  <e p="BaseTeleportationInteractable.deprecated.cs" t="Include" />
+                  <e p="TeleportationAnchor.cs" t="Include" />
+                  <e p="TeleportationArea.cs" t="Include" />
+                  <e p="TeleportationProvider.cs" t="Include" />
+                </e>
+                <e p="TunnelingVignetteController.cs" t="Include" />
+              </e>
+              <e p="UI" t="Include">
+                <e p="BodyUI" t="Include">
+                  <e p="FollowPresetDatum.cs" t="Include" />
+                  <e p="HandMenu.cs" t="Include" />
+                </e>
+                <e p="CanvasOptimizer.cs" t="Include" />
+                <e p="CanvasTracker.cs" t="Include" />
+                <e p="LazyFollow.cs" t="Include" />
+                <e p="MouseModel.cs" t="Include" />
+                <e p="NavigationModel.cs" t="Include" />
+                <e p="RegisteredUIInteractorCache.cs" t="Include" />
+                <e p="TouchModel.cs" t="Include" />
+                <e p="TrackedDeviceEventData.cs" t="Include" />
+                <e p="TrackedDeviceGraphicRaycaster.cs" t="Include" />
+                <e p="TrackedDeviceModel.cs" t="Include" />
+                <e p="TrackedDeviceModel.deprecated.cs" t="Include" />
+                <e p="TrackedDevicePhysicsRaycaster.cs" t="Include" />
+                <e p="UIInputModule.cs" t="Include" />
+                <e p="UIInputModule.Events.cs" t="Include" />
+                <e p="XRUIInputModule.cs" t="Include" />
+                <e p="XRUIInputModule.deprecated.cs" t="Include" />
+              </e>
+              <e p="Unity.XR.Interaction.Toolkit.asmdef" t="Include" />
+              <e p="Utilities" t="Include">
+                <e p="BurstGazeUtility.cs" t="Include" />
+                <e p="BurstMathUtility.cs" t="Include" />
+                <e p="BurstPhysicsUtils.cs" t="Include" />
+                <e p="Collections" t="Include">
+                  <e p="NativeCurve.cs" t="Include" />
+                </e>
+                <e p="ComponentLocatorUtility.cs" t="Include" />
+                <e p="Curves" t="Include">
+                  <e p="CurveUtility.cs" t="Include" />
+                </e>
+                <e p="DisposableManagerSingleton.cs" t="Include" />
+                <e p="EditorComponentLocatorUtility.cs" t="Include" />
+                <e p="ExposedRegistrationList.cs" t="Include" />
+                <e p="Interaction" t="Include">
+                  <e p="XRFilterUtility.cs" t="Include" />
+                  <e p="XRInteractableUtility.cs" t="Include" />
+                </e>
+                <e p="Pooling" t="Include">
+                  <e p="LinkedPool.cs" t="Include" />
+                  <e p="PooledObject.cs" t="Include" />
+                </e>
+                <e p="ProjectPath.cs" t="Include" />
+                <e p="RegistrationList.cs" t="Include" />
+                <e p="RequireInterfaceAttribute.cs" t="Include" />
+                <e p="SmallRegistrationList.cs" t="Include" />
+                <e p="TeleportationMonitor.cs" t="Include" />
+                <e p="TriggerContactMonitor.cs" t="Include" />
+                <e p="Tweenables" t="Include">
+                  <e p="Primitives" t="Include">
+                    <e p="ColorTweenableVariable.cs" t="Include" />
+                    <e p="FloatTweenableVariable.cs" t="Include" />
+                    <e p="QuaternionTweenableVariable.cs" t="Include" />
+                    <e p="Vector2TweenableVariable.cs" t="Include" />
+                    <e p="Vector3TweenableVariable.cs" t="Include" />
+                    <e p="Vector4TweenableVariable.cs" t="Include" />
+                  </e>
+                  <e p="SmartTweenableVariables" t="Include">
+                    <e p="SmartFollowQuaternionTweenableVariable.cs" t="Include" />
+                    <e p="SmartFollowVector3TweenableVariable.cs" t="Include" />
+                  </e>
+                  <e p="TweenableVariableAsyncBase.cs" t="Include" />
+                  <e p="TweenableVariableBase.cs" t="Include" />
+                  <e p="TweenableVariableSynchronousBase.cs" t="Include" />
+                </e>
+              </e>
+              <e p="XR" t="Include">
+                <e p="GizmoHelpers.cs" t="Include" />
+                <e p="InputHelpers.cs" t="Include" />
+                <e p="SortingHelpers.cs" t="Include" />
+                <e p="XRRig.cs" t="Include" />
+                <e p="XRRig.deprecated.cs" t="Include" />
+              </e>
+              <e p="XRHelpURLConstants.cs" t="Include" />
+              <e p="XRHelpURLConstants.deprecated.cs" t="Include" />
+            </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Unity.XR.Interaction.Toolkit.Editor.Tests.asmdef" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="Unity.XR.Interaction.Toolkit.Tests.asmdef" t="Include" />
+              </e>
+              <e p="Tests" t="Include" />
+            </e>
+            <e p="ValidationExceptions.json" t="Include" />
+          </e>
+          <e p="com.unity.xr.legacyinputhelpers@2.1.10" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ArmModels" t="Include">
+                <e p="ArmModelEditor.cs" t="Include" />
+                <e p="SwingArmModelEditor.cs" t="Include" />
+                <e p="TransitionArmModelEditor.cs" t="Include" />
+              </e>
+              <e p="CameraOffsetEditor.cs" t="Include" />
+              <e p="LegacyInputHelpersEditor.asmdef" t="Include" />
+              <e p="MenuUtils.cs" t="Include" />
+              <e p="SeedXRInputBindings" t="Include">
+                <e p="SeedXRInputBindings.cs" t="Include" />
+              </e>
+              <e p="TrackedPoseDriver" t="Include">
+                <e p="TPDConfigurationProvider.cs" t="Include" />
+                <e p="TrackedPoseDriverEditor.cs" t="Include" />
+                <e p="UnityEditor.SpatialTracking.asmdef" t="Include" />
+              </e>
+            </e>
+            <e p="package.json" t="Include" />
+            <e p="Prefabs" t="Include" />
+            <e p="Runtime" t="Include">
+              <e p="ArmModels" t="Include">
+                <e p="ArmModel.cs" t="Include" />
+                <e p="SwingArmModel.cs" t="Include" />
+                <e p="TransitionArmModel.cs" t="Include" />
+              </e>
+              <e p="CameraOffset.cs" t="Include" />
+              <e p="LegacyInputHelpers.asmdef" t="Include" />
+              <e p="TrackedPoseDriver" t="Include">
+                <e p="AssemblyInfo.cs" t="Include" />
+                <e p="BasePoseProvider.cs" t="Include" />
+                <e p="TrackedPoseDriver.cs" t="Include" />
+                <e p="UnityEngine.SpatialTracking.asmdef" t="Include" />
+              </e>
+            </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="LegacyInputHelpersEditorTests.asmdef" t="Include" />
+                <e p="SeedXRInputBindings" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="TrackedPoseDriver" t="Include">
+                  <e p="UnityEngine.SpatialTracking.Tests.asmdef" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="com.unity.xr.management@4.3.3" t="Include">
+            <e p="Editor" t="Include">
+              <e p="BuildHelpers.cs" t="Include" />
+              <e p="EditorUtilities.cs" t="Include" />
+              <e p="Legacy" t="Include">
+                <e p="XRLegacyStandaloneSubsystem.cs" t="Include" />
+                <e p="XRLegacyUninstaller.cs" t="Include" />
+              </e>
+              <e p="Metadata" t="Include">
+                <e p="KnownPackages.cs" t="Include" />
+                <e p="XRPackage.cs" t="Include" />
+                <e p="XRPackageMetadata.cs" t="Include" />
+                <e p="XRPackageMetadataStore.cs" t="Include" />
+              </e>
+              <e p="PackageNotificationUtils.cs" t="Include" />
+              <e p="TypeLoaderExtensions.cs" t="Include" />
+              <e p="Unity.XR.Management.Editor.asmdef" t="Include" />
+              <e p="XRBuildProcessorHelper.cs" t="Include" />
+              <e p="XRConfigurationProvider.cs" t="Include" />
+              <e p="XRConstants.cs" t="Include" />
+              <e p="XRCustomLoaderUI.cs" t="Include" />
+              <e p="XRCustomLoaderUIManager.cs" t="Include" />
+              <e p="XREditorWorkQueue.cs" t="Include" />
+              <e p="XRGeneralBuildProcessor.cs" t="Include" />
+              <e p="XRGeneralSettingsPerBuildTarget.cs" t="Include" />
+              <e p="XRGeneralSettingsUpgrade.cs" t="Include" />
+              <e p="XRLoaderInfo.cs" t="Include" />
+              <e p="XRLoaderInfoManager.cs" t="Include" />
+              <e p="XRLoaderOrderUI.cs" t="Include" />
+              <e p="XRManagerEditor.cs" t="Include" />
+              <e p="XRPackageInitialization.cs" t="Include" />
+              <e p="XRPackageInitializationSettings.cs" t="Include" />
+              <e p="XRSettingsManager.cs" t="Include" />
+              <e p="XRSupportedBuildTargetAttribute.cs" t="Include" />
+            </e>
+            <e p="package.json" t="Include" />
+            <e p="Runtime" t="Include">
+              <e p="IXRLoaderPreInit.cs" t="Include" />
+              <e p="Unity.XR.Management.asmdef" t="Include" />
+              <e p="XRConfigurationData.cs" t="Include" />
+              <e p="XRGeneralSettings.cs" t="Include" />
+              <e p="XRLoader.cs" t="Include" />
+              <e p="XRLoaderHelper.cs" t="Include" />
+              <e p="XRManagementAnalytics.cs" t="Include" />
+              <e p="XRManagerSettings.cs" t="Include" />
+            </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Unity.XR.Management.EditorTests.asmdef" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="Unity.XR.Management.Tests.asmdef" t="Include" />
+              </e>
+              <e p="StandaloneSubsystem" t="Include">
+                <e p="Unity.XR.Management.Tests.Standalone.asmdef" t="Include" />
+              </e>
+              <e p="TestPackage" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="Uniyt.XR.Management.TestPackage.Editor.asmdef" t="Include" />
+                </e>
+                <e p="Runtime" t="Include">
+                  <e p="Uniyt.XR.Management.TestPackage.asmdef" t="Include" />
+                </e>
+              </e>
+              <e p="TestTooling" t="Include">
+                <e p="Unity.XR.TestSupport.asmdef" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="com.unity.xr.openxr@1.8.2" t="Include">
+            <e p="ConformanceAutomation" t="Include">
+              <e p="Android" t="Include">
+                <e p="arm64" t="Include" />
+              </e>
+              <e p="ConformanceAutomationFeature.cs" t="Include" />
+              <e p="OSX" t="Include" />
+              <e p="Unity.XR.OpenXR.Features.ConformanceAutomation.asmdef" t="Include" />
+              <e p="universalwindows" t="Include">
+                <e p="arm32" t="Include" />
+                <e p="arm64" t="Include" />
+                <e p="x64" t="Include" />
+              </e>
+              <e p="Windows" t="Include">
+                <e p="x64" t="Include" />
+              </e>
+            </e>
+            <e p="Editor" t="Include">
+              <e p="BootConfig.cs" t="Include" />
+              <e p="BuildHelperUtils.cs" t="Include" />
+              <e p="BuildTargetSupport" t="Include">
+                <e p="UWPCoreWindowBuildHooks.cs" t="Include" />
+              </e>
+              <e p="FeatureSupport" t="Include">
+                <e p="BootConfigBuilder.cs" t="Include" />
+                <e p="DPadInteractionCustomEditor.cs" t="Include" />
+                <e p="FeatureHelpers.cs" t="Include" />
+                <e p="KnownFeatureSets.cs" t="Include" />
+                <e p="OpenXRChooseRuntimeLibraries.cs" t="Include" />
+                <e p="OpenXRFeatureBuildHooks.cs" t="Include" />
+                <e p="OpenXRFeatureEditor.cs" t="Include" />
+                <e p="OpenXRFeatureSetAttribute.cs" t="Include" />
+                <e p="OpenXRFeatureSetManager.cs" t="Include" />
+                <e p="OpenXRFeatureSettingsEditor.cs" t="Include" />
+                <e p="OpenXRFeatureUICommon.cs" t="Include" />
+                <e p="OpenXRLoaderUI.cs" t="Include" />
+              </e>
+              <e p="OpenXRBuildProcessor.cs" t="Include" />
+              <e p="OpenXREditorSettings.cs" t="Include" />
+              <e p="OpenXRMangementSettings.cs" t="Include" />
+              <e p="OpenXRPackageSettings.cs" t="Include" />
+              <e p="OpenXRProjectValidationRulesSetup.cs" t="Include" />
+              <e p="OpenXRRuntimeSelector.cs" t="Include" />
+              <e p="PackageSettingsEditor.cs" t="Include" />
+              <e p="Unity.XR.OpenXR.Editor.asmdef" t="Include" />
+            </e>
+            <e p="MetaQuest" t="Include">
+              <e p="Editor" t="Include">
+                <e p="MetaQuestFeatureEditor.cs" t="Include" />
+                <e p="ModifyAndroidManifestMeta.cs" t="Include" />
+                <e p="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.asmdef" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="Android" t="Include">
+                  <e p="arm64" t="Include" />
+                </e>
+                <e p="MetaQuestFeature.cs" t="Include" />
+                <e p="Unity.XR.OpenXR.Features.MetaQuestSupport.asmdef" t="Include" />
+              </e>
+            </e>
+            <e p="MockRuntime" t="Include">
+              <e p="Android" t="Include">
+                <e p="arm64" t="Include" />
+              </e>
+              <e p="MockRuntime.cs" t="Include" />
+              <e p="MockRuntimeFeatureSet.cs" t="Include" />
+              <e p="OSX" t="Include" />
+              <e p="unity-mock-runtime.json" t="Include" />
+              <e p="Unity.XR.OpenXR.Features.MockRuntime.asmdef" t="Include" />
+              <e p="Windows" t="Include">
+                <e p="x64" t="Include" />
+              </e>
+            </e>
+            <e p="OculusQuest" t="Include">
+              <e p="Editor" t="Include">
+                <e p="ModifyAndroidManifestOculus.cs" t="Include" />
+                <e p="OculusQuestFeatureEditor.cs" t="Include" />
+                <e p="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.asmdef" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="Android" t="Include">
+                  <e p="arm64" t="Include" />
+                </e>
+                <e p="OculusQuestFeature.cs" t="Include" />
+                <e p="Unity.XR.OpenXR.Features.OculusQuestSupport.asmdef" t="Include" />
+              </e>
+            </e>
+            <e p="package.json" t="Include" />
+            <e p="Runtime" t="Include">
+              <e p="Android" t="Include">
+                <e p="arm64" t="Include" />
+              </e>
+              <e p="Features" t="Include">
+                <e p="Interactions" t="Include">
+                  <e p="DPadInteraction.cs" t="Include" />
+                  <e p="EyeGazeInteraction.cs" t="Include" />
+                  <e p="HandCommonPosesInteraction.cs" t="Include" />
+                  <e p="HandInteractionProfile.cs" t="Include" />
+                  <e p="HPReverbG2ControllerProfile.cs" t="Include" />
+                  <e p="HTCViveControllerProfile.cs" t="Include" />
+                  <e p="KHRSimpleControllerProfile.cs" t="Include" />
+                  <e p="MetaQuestTouchProControllerProfile.cs" t="Include" />
+                  <e p="MicrosoftHandInteraction.cs" t="Include" />
+                  <e p="MicrosoftMotionControllerProfile.cs" t="Include" />
+                  <e p="OculusTouchControllerProfile.cs" t="Include" />
+                  <e p="PalmPoseInteraction.cs" t="Include" />
+                  <e p="ValveIndexControllerProfile.cs" t="Include" />
+                </e>
+                <e p="OpenXRFeature.cs" t="Include" />
+                <e p="OpenXRFeatureAttribute.cs" t="Include" />
+                <e p="OpenXRFeatureInternal.cs" t="Include" />
+                <e p="OpenXRFeatureSettings.cs" t="Include" />
+                <e p="OpenXRInteractionFeature.cs" t="Include" />
+              </e>
+              <e p="Input" t="Include">
+                <e p="HapticControl.cs" t="Include" />
+                <e p="OpenXRDevice.cs" t="Include" />
+                <e p="OpenXRHmd.cs" t="Include" />
+                <e p="OpenXRInput.cs" t="Include" />
+                <e p="PoseControl.cs" t="Include" />
+              </e>
+              <e p="OpenXRAnalytics.cs" t="Include" />
+              <e p="OpenXRConstants.cs" t="Include" />
+              <e p="OpenXRDiagnosticReport.cs" t="Include" />
+              <e p="OpenXRLoader.cs" t="Include" />
+              <e p="OpenXRLoaderInternal.cs" t="Include" />
+              <e p="OpenXRLoaderNoPreInit.cs" t="Include" />
+              <e p="OpenXRNativeTypes.cs" t="Include" />
+              <e p="OpenXRProjectValidation.cs" t="Include" />
+              <e p="OpenXRRenderSettings.cs" t="Include" />
+              <e p="OpenXRRestarter.cs" t="Include" />
+              <e p="OpenXRRuntime.cs" t="Include" />
+              <e p="OpenXRSettings.cs" t="Include" />
+              <e p="OSX" t="Include" />
+              <e p="Unity.XR.OpenXR.asmdef" t="Include" />
+              <e p="UnitySubsystemsManifest.json" t="Include" />
+              <e p="universalwindows" t="Include">
+                <e p="arm32" t="Include" />
+                <e p="arm64" t="Include" />
+                <e p="x64" t="Include" />
+              </e>
+              <e p="WaitForRestartFinish.cs" t="Include" />
+              <e p="Windows" t="Include">
+                <e p="x64" t="Include" />
+              </e>
+            </e>
+            <e p="RuntimeDebugger" t="Include">
+              <e p="Android" t="Include">
+                <e p="arm64" t="Include" />
+              </e>
+              <e p="DebuggerState.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="RuntimeDebuggerOpenXRFeatureEditor.cs" t="Include" />
+                <e p="RuntimeDebuggerWindow.cs" t="Include" />
+                <e p="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.asmdef" t="Include" />
+              </e>
+              <e p="OSX" t="Include" />
+              <e p="RuntimeDebuggerOpenXRFeature.cs" t="Include" />
+              <e p="Unity.XR.OpenXR.Features.RuntimeDebugger.asmdef" t="Include" />
+              <e p="universalwindows" t="Include">
+                <e p="arm32" t="Include" />
+                <e p="arm64" t="Include" />
+                <e p="x64" t="Include" />
+              </e>
+              <e p="Windows" t="Include">
+                <e p="x64" t="Include" />
+              </e>
+            </e>
+            <e p="RuntimeLoaders" t="Include">
+              <e p="Android" t="Include" />
+              <e p="universalwindows" t="Include">
+                <e p="arm32" t="Include" />
+                <e p="arm64" t="Include" />
+                <e p="x64" t="Include" />
+              </e>
+              <e p="Windows" t="Include">
+                <e p="x64" t="Include" />
+              </e>
+            </e>
+            <e p="Shared" t="Include" />
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Unity.XR.OpenXR.Tests.Editor.asmdef" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="Unity.XR.OpenXR.Tests.asmdef" t="Include" />
+              </e>
+            </e>
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
@@ -7563,14 +8555,59 @@
       <e p="Unity.VisualScripting.State.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.VisualStudio.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.VSCode.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.CoreUtils.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.CoreUtils.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.CoreUtils.EditorTests.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.CoreUtils.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.CoreUtils.Tests.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Interaction.Toolkit.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Interaction.Toolkit.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Interaction.Toolkit.Editor.Tests.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Interaction.Toolkit.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Interaction.Toolkit.Tests.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Management.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Management.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Management.EditorTests.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Management.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Management.TestPackage.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Management.TestPackage.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Management.Tests.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Management.Tests.Standalone.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Features.ConformanceAutomation.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Features.ConformanceAutomation.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Features.MetaQuestSupport.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Features.MetaQuestSupport.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Features.MockRuntime.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Features.MockRuntime.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Features.OculusQuestSupport.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Features.OculusQuestSupport.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Features.RuntimeDebugger.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Features.RuntimeDebugger.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Tests.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.OpenXR.Tests.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.TestSupport.csproj" t="IncludeRecursive" />
+      <e p="UnityEditor.SpatialTracking.csproj" t="IncludeRecursive" />
       <e p="UnityEditor.TestRunner.csproj" t="IncludeRecursive" />
       <e p="UnityEditor.UI.csproj" t="IncludeRecursive" />
       <e p="UnityEditor.UI.EditorTests.csproj" t="IncludeRecursive" />
+      <e p="UnityEditor.XR.LegacyInputHelpers.csproj" t="IncludeRecursive" />
+      <e p="UnityEditor.XR.LegacyInputHelpers.Tests.csproj" t="IncludeRecursive" />
+      <e p="UnityEngine.SpatialTracking.csproj" t="IncludeRecursive" />
+      <e p="UnityEngine.SpatialTracking.Player.csproj" t="IncludeRecursive" />
+      <e p="UnityEngine.SpatialTracking.Tests.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.TestRunner.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.TestRunner.Player.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.UI.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.UI.Player.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.UI.Tests.csproj" t="IncludeRecursive" />
+      <e p="UnityEngine.XR.LegacyInputHelpers.csproj" t="IncludeRecursive" />
+      <e p="UnityEngine.XR.LegacyInputHelpers.Player.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>
