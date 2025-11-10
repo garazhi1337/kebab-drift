@@ -112,7 +112,7 @@ namespace UnityEditor.Rendering.Universal
             taaMipBias = taaSettings.FindPropertyRelative(nameof(TemporalAA.Settings.mipBias));
             taaVarianceClampScale = taaSettings.FindPropertyRelative(nameof(TemporalAA.Settings.varianceClampScale));
             taaContrastAdaptiveSharpening = taaSettings.FindPropertyRelative(nameof(TemporalAA.Settings.contrastAdaptiveSharpening));
-
+            
             allowHDROutput = serializedAdditionalDataObject.FindProperty("m_AllowHDROutput");
         }
 
@@ -125,11 +125,10 @@ namespace UnityEditor.Rendering.Universal
             serializedObject.Update();
             serializedAdditionalDataObject.Update();
 
-            if (cameraSerializedObjects == null || cameraSerializedObjects.Length != numCameras)
-                Refresh();
-
             for (int i = 0; i < numCameras; ++i)
-                cameraSerializedObjects[i]?.Update();
+            {
+                cameraSerializedObjects[i].Update();
+            }
         }
 
         /// <summary>
@@ -141,11 +140,10 @@ namespace UnityEditor.Rendering.Universal
             serializedObject.ApplyModifiedProperties();
             serializedAdditionalDataObject.ApplyModifiedProperties();
 
-            if (cameraSerializedObjects == null || cameraSerializedObjects.Length != numCameras)
-                Refresh();
-
             for (int i = 0; i < numCameras; ++i)
-                cameraSerializedObjects[i]?.Apply();
+            {
+                cameraSerializedObjects[i].Apply();
+            }
         }
 
         /// <summary>
@@ -160,8 +158,7 @@ namespace UnityEditor.Rendering.Universal
             for (int i = 0; i < numCameras; ++i)
             {
                 Camera cam = cameras.GetArrayElementAtIndex(i).objectReferenceValue as Camera;
-                if (cam != null)
-                    cameraSerializedObjects[i] = new UniversalRenderPipelineSerializedCamera(new SerializedObject(cam));
+                cameraSerializedObjects[i] = new UniversalRenderPipelineSerializedCamera(new SerializedObject(cam));
             }
         }
     }

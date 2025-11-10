@@ -94,8 +94,7 @@ namespace UnityEngine.Rendering
         /// </summary>
         /// <param name="width">Initial reference rendering width.</param>
         /// <param name="height">Initial reference rendering height.</param>
-        /// <param name="useLegacyDynamicResControl">Use legacy hardware DynamicResolution control in RTHandle system.</param>
-        public void Initialize(int width, int height, bool useLegacyDynamicResControl = false)
+        public void Initialize(int width, int height)
         {
             if (m_AutoSizedRTs.Count != 0)
             {
@@ -110,10 +109,7 @@ namespace UnityEngine.Rendering
             m_MaxWidths = width;
             m_MaxHeights = height;
 
-            if (useLegacyDynamicResControl)
-                m_HardwareDynamicResRequested = true;
-            else
-                m_HardwareDynamicResRequested = DynamicResolutionHandler.instance.RequestsHardwareDynamicResolution();
+            m_HardwareDynamicResRequested = DynamicResolutionHandler.instance.RequestsHardwareDynamicResolution();
         }
 
         /// <summary>

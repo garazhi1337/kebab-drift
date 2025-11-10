@@ -5,29 +5,30 @@ public class RearWheelDrive : MonoBehaviour
 {
 
 	[SerializeField] private RulAndKorobka _rulAndKorobka;
+
 	private WheelCollider[] wheels;
 
 	public float maxAngle = 30;
 	public float maxTorque = 85;
-	public float[] gearRatios = { 3.667f, 2.100f, 1.361f, 1.000f, 0.821f, -3.530f }; //это сказал дипсик чтобы машина норм ехала на разных передачах
+	public float[] gearRatios; //это сказал дипсик чтобы машина норм ехала на разных передачах
 	public float differentialRatio = 4.1f;
-	public int currentGear = 0; // Текущая передача
+	public int currentGear = 7; // Текущая передача 8 по умолчанию нейтралка
 	public GameObject wheelShape;
 	private float _currentVelocity;
 	private float _gas;
 	private float _tormoz;
 	private float _clutch;
 	private Rigidbody _rb;
-	
-	//макс скорости для передач
-	private const int FIRST_SPEED_MAX = 25;
-	private const int SECOND_SPEED_MAX = 45;
-	private const int THIRD_SPEED_MAX = 70;
-	private const int FOURTH_SPEED_MAX = 100;
-	private const int FIFTH_SPEED_MAX = 142;
 
-	// here we find all the WheelColliders down in the hierarchy
-	public void Start()
+    float[,] ranges = new float[,]
+    {
+        {0f, 15f, 0}, {15f, 35f, 1}, {35f, 55f, 2},
+        {55f, 75f, 3}, {75f, 95f, 4}, {95f, 120f, 5},
+        {-0.05f, 0.05f, 6}
+    };
+
+    // here we find all the WheelColliders down in the hierarchy
+    public void Start()
 	{
 		wheels = GetComponentsInChildren<WheelCollider>();
 
@@ -56,7 +57,7 @@ public class RearWheelDrive : MonoBehaviour
 
 	private void Update()
 	{
-		SwitchPeredach();
+		//SwitchPeredach();
 	}
 
 	private void HandleMovement()
@@ -85,7 +86,7 @@ public class RearWheelDrive : MonoBehaviour
 			switch (currentGear)
 			{
 			    case 0: // 1-я передача
-				    if (_currentVelocity < FIRST_SPEED_MAX)
+				    if (_currentVelocity < ranges[0, 1])
 				    {
 					    wheel.motorTorque = torque;
 				    }
@@ -96,7 +97,7 @@ public class RearWheelDrive : MonoBehaviour
 				    break;
         
 			    case 1: // 2-я передача
-				    if (_currentVelocity < SECOND_SPEED_MAX)
+				    if (_currentVelocity < ranges[1, 1])
 				    {
 					    wheel.motorTorque = torque;
 				    }
@@ -107,7 +108,7 @@ public class RearWheelDrive : MonoBehaviour
 				    break;
         
 			    case 2: // 3-я передача
-				    if (_currentVelocity < THIRD_SPEED_MAX)
+				    if (_currentVelocity < ranges[2, 1])
 				    {
 					    wheel.motorTorque = torque;
 				    }
@@ -118,7 +119,7 @@ public class RearWheelDrive : MonoBehaviour
 				    break;
         
 			    case 3: // 4-я передача
-				    if (_currentVelocity < FOURTH_SPEED_MAX)
+				    if (_currentVelocity < ranges[3, 1])
 				    {
 					    wheel.motorTorque = torque;
 				    }
@@ -129,7 +130,7 @@ public class RearWheelDrive : MonoBehaviour
 				    break;
 
 			    case 4: // 5-я передача
-				    if (_currentVelocity < FIFTH_SPEED_MAX)
+				    if (_currentVelocity < ranges[4, 1])
 				    {
 					    wheel.motorTorque = torque;
 				    }
@@ -138,9 +139,34 @@ public class RearWheelDrive : MonoBehaviour
 					    wheel.motorTorque = 0f; // Отключаем мотор
 				    }
 				    break;
-			}
 
-			   // update visual wheels if any
+                case 5: // 6-я передача
+                    if (_currentVelocity < ranges[5, 1])
+                    {
+                        wheel.motorTorque = torque;
+                    }
+                    else
+                    {
+                        wheel.motorTorque = 0f; // Отключаем мотор
+                    }
+                    break;
+
+                case 6: // 7-я передача задняя
+                    if (_currentVelocity < ranges[6, 1])
+                    {
+                        wheel.motorTorque = torque;
+                    }
+                    else
+                    {
+                        wheel.motorTorque = 0f; // Отключаем мотор на нейтралке (когда передача -1)
+                    }
+					break;
+				case 7:
+                    wheel.motorTorque = torque;
+                    break;
+            }
+
+			// update visual wheels if any
 			if (wheelShape) 
 			{
 				Quaternion q;
@@ -159,40 +185,65 @@ public class RearWheelDrive : MonoBehaviour
 		Debug.Log(_currentVelocity);
 	}
 
+    /**
 	private void SwitchPeredach()
 	{
 		if (Input.GetKeyDown(KeyCode.Alpha1))
 		{
 			Debug.Log("1 передача");
-			//1 передача - 0-25 км.ч
-			/*
-			 * если 0 км.ч то 1. сцепление 100 2. 1 передача 3. газ 10-20 4. сцепление 50-70 5. сцепление 0
-			 */
-			if (_currentVelocity >= 0 && _currentVelocity <= 25) currentGear = 0;
+
+			if (_currentVelocity >= 0 && _currentVelocity <= FIRST_SPEED_MAX) currentGear = 0;
 		}
 		
 		if (Input.GetKeyDown(KeyCode.Alpha2))
 		{
-			//2 передача - 20-45 км.ч
-			if (_currentVelocity >= 20 && _currentVelocity <= 45) currentGear = 1;
+			//2 передача - 15-40 км.ч
+			if (_currentVelocity >= 15 && _currentVelocity <= SECOND_SPEED_MAX) currentGear = 1;
 		}
 		
 		if (Input.GetKeyDown(KeyCode.Alpha3))
 		{
 			//3 передача - 40-70 км.ч
-			if (_currentVelocity >= 40 && _currentVelocity <= 70) currentGear = 2;
+			if (_currentVelocity >= 35 && _currentVelocity <= THIRD_SPEED_MAX) currentGear = 2;
 		}
 		
 		if (Input.GetKeyDown(KeyCode.Alpha4))
 		{
 			//4 передача - 60-100 км.ч
-			if (_currentVelocity >= 60 && _currentVelocity <= 100) currentGear = 3;
+			if (_currentVelocity >= 55 && _currentVelocity <= FOURTH_SPEED_MAX) currentGear = 3;
 		}
 		
 		if (Input.GetKeyDown(KeyCode.Alpha5))
 		{
 			//4 передача - 80-142 км.ч
-			if (_currentVelocity >= 80 && _currentVelocity <= 142) currentGear = 4;
+			if (_currentVelocity >= 75 && _currentVelocity <= FIFTH_SPEED_MAX) currentGear = 4;
 		}
-	}
+
+        if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            //4 передача - 80-142 км.ч
+            if (_currentVelocity >= 95 && _currentVelocity <= FIFTH_SPEED_MAX) currentGear = 5;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha7))
+        {
+            //4 передача - 80-142 км.ч
+            if (_currentVelocity >= -0.05 && _currentVelocity <= 0.05) currentGear = 6;
+        }
+    }
+	**/
+
+    public void UpdateGearBasedOnSpeed(int i)
+    {
+        currentGear = -1; // по умолчанию нейтралка
+
+        float minSpeed = ranges[i, 0];
+        float maxSpeed = ranges[i, 1];
+        int gear = (int)ranges[i, 2];
+
+        if (_currentVelocity >= minSpeed && _currentVelocity <= maxSpeed)
+        {
+            currentGear = gear;
+        }
+    }
 }

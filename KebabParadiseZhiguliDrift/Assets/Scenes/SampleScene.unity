@@ -143,7 +143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &82639112
 Transform:
   m_ObjectHideFlags: 0
@@ -1763,7 +1763,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1215748990
 Transform:
   m_ObjectHideFlags: 0
@@ -3096,7 +3096,7 @@ Transform:
   m_GameObject: {fileID: 1955518938}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.267, y: 0.074, z: 0.006}
+  m_LocalPosition: {x: -0.267, y: 0.061, z: 0.006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3610,18 +3610,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e0ffae60634ec448780cc5233a2010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rulAndKorobka: {fileID: 0}
+  _rulAndKorobka: {fileID: 919132147805957072}
   maxAngle: 30
   maxTorque: 85
   gearRatios:
-  - 0.6
+  - 0.4
+  - 0.7
   - 1
   - 1.4
-  - 1.8
-  - 2.2
-  - -0.6
+  - 1.7
+  - 2
+  - 2.5
+  - -0.4
+  - 0
   differentialRatio: 3.9
-  currentGear: 0
+  currentGear: 8
   wheelShape: {fileID: 1081129494572590461, guid: defa5f5832952bd4ea9cebd4665e1a03,
     type: 3}
 --- !u!114 &919132147805957071
@@ -3652,8 +3655,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76bbed81e6b04814b8a13e8242757ae9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _inputControllerReader: {fileID: 0}
-  _upravlenije: {fileID: 0}
+  _inputControllerReader: {fileID: 11400000, guid: 8268bb9eff5a1954492cd4817fb37528,
+    type: 2}
+  _upravlenije: {fileID: 919132147805957070}
+  _rul: {fileID: 0}
   clutchValue: 0
   brakeValue: 0
   throttleValue: 0

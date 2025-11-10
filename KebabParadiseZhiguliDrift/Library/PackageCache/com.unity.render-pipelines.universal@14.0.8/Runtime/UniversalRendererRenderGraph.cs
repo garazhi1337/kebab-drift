@@ -248,7 +248,6 @@ namespace UnityEngine.Rendering.Universal
                 m_DeferredPass.OnCameraCleanup(renderingData.commandBuffer);
 
             m_CopyDepthPass.OnCameraCleanup(renderingData.commandBuffer);
-            m_DepthNormalPrepass.OnCameraCleanup(renderingData.commandBuffer);
         }
 
         // TODO RENDERGRAPH: do this properly
