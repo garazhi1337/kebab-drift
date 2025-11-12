@@ -6,13 +6,14 @@ using UnityEngine;
 public class RulAndKorobka : MonoBehaviour
 {
     [SerializeField] private InputControllerReader _inputControllerReader;
-    [SerializeField] private RearWheelDrive _upravlenije;
     [SerializeField] private Transform _rul;
+    [SerializeField] private Engine _engine;
 
     public float clutchValue;
     public float brakeValue;
     public float throttleValue;
     public float steerValue;
+    public int CurrentGear = 7;
     private bool[] gearActive = new bool[7];
 
     private void Start()
@@ -49,7 +50,7 @@ public class RulAndKorobka : MonoBehaviour
 
         _inputControllerReader.Shifter5Callback += b =>
         {
-            gearActive[5] = b;
+            gearActive[4] = b;
             UpdateGearState();
         };
 
@@ -71,7 +72,6 @@ public class RulAndKorobka : MonoBehaviour
         clutchValue = value;
     }
     
-
     private void OnBrake(float value)
     {
         brakeValue = value;
@@ -87,9 +87,7 @@ public class RulAndKorobka : MonoBehaviour
         steerValue = value;
         _rul.localRotation = Quaternion.Euler(0, 0, steerValue * 900.0f);
     }
-
-
-
+    
     private void UpdateGearState()
     {
         bool anyGearActive = false;
@@ -97,7 +95,7 @@ public class RulAndKorobka : MonoBehaviour
         {
             if (gearActive[i])
             {
-                _upravlenije.UpdateGearBasedOnSpeed(i);
+                CurrentGear = i;
                 anyGearActive = true;
                 break;
             }
@@ -105,8 +103,10 @@ public class RulAndKorobka : MonoBehaviour
 
         if (!anyGearActive)
         {
-            _upravlenije.currentGear = 8;
+            CurrentGear = 7;
         }
+        
+        //if (_inputControllerReader.Clutch < 0.5f && anyGearActive && _engine) _engine.Stall();
     }
 
 }

@@ -1,341 +1,343 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1762791824823855, "dur":31244, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762791824855107, "dur":143, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762791824855298, "dur":352, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762791824855667, "dur":3043, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762791824858711, "dur":1543146, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762791826401859, "dur":1150, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762791826403042, "dur":236, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762791826403710, "dur":64, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762791826403831, "dur":4532, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1762791824856288, "dur":2454, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762791824858744, "dur":5621, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762791824864365, "dur":6311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762791824870677, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":1, "ts":1762791824870841, "dur":5121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762791824875966, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1762791824876466, "dur":5753, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762791824882231, "dur":363, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762791824882599, "dur":437, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1762791824882598, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1762791824883038, "dur":325, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762791824883368, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762791824883777, "dur":493, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762791824884277, "dur":1963, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762791824886248, "dur":643, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762791824886897, "dur":565, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762791824887469, "dur":826, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762791824889509, "dur":1188653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":1, "ts":1762791826078226, "dur":323603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1762791824856202, "dur":2513, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1762791824858716, "dur":11953, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1762791824870717, "dur":202, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1762791824870931, "dur":244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1762791824871281, "dur":301, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824871583, "dur":321, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Management.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824871905, "dur":781, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824872687, "dur":340, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824873028, "dur":600, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824873629, "dur":331, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.MockRuntime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824873961, "dur":337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.CoreUtils.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824874299, "dur":395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824874695, "dur":327, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.MetaQuestSupport.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824875023, "dur":292, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824875316, "dur":556, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824875874, "dur":484, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824876359, "dur":1034, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824877394, "dur":314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824877709, "dur":397, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824878107, "dur":319, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Inputter.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824878427, "dur":996, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824879424, "dur":306, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824879736, "dur":459, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824880196, "dur":749, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824880946, "dur":288, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.SpatialTracking.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824881235, "dur":448, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824881684, "dur":347, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824882032, "dur":478, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824882512, "dur":1375, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762791824883942, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerb048a4c3-inputdata.json" }}
-,{ "pid":12345, "tid":2, "ts":1762791824870717, "dur":13482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1762791824889693, "dur":99029, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1762791825018657, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1762791825018656, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1762791825018877, "dur":1284114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1762791826302996, "dur":98866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824856224, "dur":2502, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824858727, "dur":5620, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824864348, "dur":6333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824870695, "dur":228, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1762791824870683, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1762791824870925, "dur":5007, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824875938, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1762791824875937, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1762791824876084, "dur":5877, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824881966, "dur":350, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824882329, "dur":430, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824882767, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824883156, "dur":421, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824883584, "dur":339, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824883927, "dur":556, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824884489, "dur":1920, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824886418, "dur":586, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824887010, "dur":560, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824887576, "dur":851, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762791824889572, "dur":1188449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1762791826078107, "dur":323776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824856281, "dur":2457, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824858740, "dur":4118, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824862859, "dur":7826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824870686, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1762791824871178, "dur":4955, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824876146, "dur":6168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824882321, "dur":585, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824882912, "dur":436, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824883354, "dur":403, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824883766, "dur":478, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824884250, "dur":1907, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824886164, "dur":508, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824886677, "dur":740, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824887425, "dur":821, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824888252, "dur":370, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1762791824888251, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1762791824888624, "dur":962, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762791824889590, "dur":1512244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824856319, "dur":2433, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824858753, "dur":4655, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824863408, "dur":7284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824870693, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1762791824870871, "dur":5215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824876101, "dur":6096, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824882210, "dur":290, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824882508, "dur":379, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824882894, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824883286, "dur":450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824883744, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824884200, "dur":1901, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824886106, "dur":624, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824886738, "dur":790, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824887533, "dur":898, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762791824889520, "dur":707360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/level0.resS" }}
-,{ "pid":12345, "tid":5, "ts":1762791825596920, "dur":804882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762791824856218, "dur":2501, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762791824858723, "dur":3985, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762791824862708, "dur":7979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762791824870694, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":6, "ts":1762791824870688, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1762791824870825, "dur":5093, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762791824875924, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1762791824876354, "dur":5856, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762791824882219, "dur":413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762791824882637, "dur":486, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":6, "ts":1762791824882636, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":6, "ts":1762791824883124, "dur":423, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762791824883554, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762791824883889, "dur":545, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762791824884440, "dur":1966, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762791824886413, "dur":526, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762791824886947, "dur":574, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762791824887530, "dur":886, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762791824889568, "dur":622029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1762791825511669, "dur":890228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762791824856275, "dur":2459, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762791824858735, "dur":152, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762791824858887, "dur":11792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762791824870681, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1762791824870825, "dur":5172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762791824876010, "dur":429, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762791824876001, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762791824876440, "dur":5796, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762791824882244, "dur":395, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762791824882644, "dur":1085, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762791824882643, "dur":1086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762791824883730, "dur":417, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762791824884154, "dur":1875, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762791824886035, "dur":624, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762791824886665, "dur":762, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762791824887432, "dur":892, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762791824888329, "dur":1165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762791824889514, "dur":707478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":7, "ts":1762791825597025, "dur":804821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824856251, "dur":2479, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824858731, "dur":5196, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824863927, "dur":6751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824870691, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":8, "ts":1762791824870680, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1762791824870869, "dur":5060, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824875934, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1762791824876043, "dur":5971, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824882024, "dur":301, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824882331, "dur":437, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824882774, "dur":383, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824883163, "dur":465, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824883635, "dur":318, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824883960, "dur":573, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824884537, "dur":2026, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824886571, "dur":632, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824887211, "dur":590, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824887806, "dur":605, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762791824889722, "dur":620868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":8, "ts":1762791825510669, "dur":891183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762791824856290, "dur":2457, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762791824858749, "dur":6560, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762791824865310, "dur":5365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762791824870678, "dur":533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":9, "ts":1762791824871212, "dur":4866, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762791824876081, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":9, "ts":1762791824876441, "dur":5793, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762791824882245, "dur":448, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762791824882697, "dur":1316, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762791824882696, "dur":1317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/Managed/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762791824884013, "dur":587, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762791824884607, "dur":1990, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762791824886603, "dur":657, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762791824887265, "dur":646, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762791824887930, "dur":571, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762791824889508, "dur":1347743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":9, "ts":1762791826237333, "dur":164456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762791824856347, "dur":2414, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762791824858761, "dur":11922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762791824870685, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1762791824870875, "dur":5108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762791824876031, "dur":495, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1762791824875986, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1762791824876528, "dur":5721, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762791824882257, "dur":500, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762791824882765, "dur":382, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762791824883155, "dur":491, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762791824883666, "dur":410, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762791824884083, "dur":640, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762791824884729, "dur":1864, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762791824886600, "dur":712, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762791824887320, "dur":807, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762791824888132, "dur":245736, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PackageCache\\com.unity.xr.openxr@1.8.2\\RuntimeLoaders\\windows\\x64\\openxr_loader.dll" }}
-,{ "pid":12345, "tid":10, "ts":1762791824888131, "dur":245739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/Plugins/x86_64/openxr_loader.dll" }}
-,{ "pid":12345, "tid":10, "ts":1762791825239507, "dur":1122678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/Plugins/x86_64/openxr_loader.dll" }}
-,{ "pid":12345, "tid":10, "ts":1762791826362266, "dur":39554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1762791824856340, "dur":2416, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1762791824858758, "dur":107, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1762791824858866, "dur":11806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1762791824870901, "dur":373, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp-firstpass.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824871275, "dur":314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824871589, "dur":323, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Management.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824871914, "dur":781, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824872696, "dur":337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824873034, "dur":589, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824873624, "dur":329, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.MockRuntime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824873954, "dur":337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.CoreUtils.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824874291, "dur":389, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824874680, "dur":321, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.MetaQuestSupport.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824875002, "dur":300, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824875303, "dur":561, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824875866, "dur":483, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824876351, "dur":1070, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824877422, "dur":299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824877722, "dur":389, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824878112, "dur":291, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Inputter.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824878404, "dur":983, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824879388, "dur":311, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824879699, "dur":488, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824880188, "dur":765, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824880954, "dur":297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.SpatialTracking.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824881252, "dur":432, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824881685, "dur":313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824881999, "dur":457, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824882458, "dur":1433, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762791824870677, "dur":13293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":11, "ts":1762791824883970, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1762791824884310, "dur":2088, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1762791824886416, "dur":1061, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1762791824887486, "dur":910, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1762791824888403, "dur":1098, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1762791824889505, "dur":1512290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824856363, "dur":2402, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824858766, "dur":11908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824870693, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":12, "ts":1762791824870677, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":12, "ts":1762791824870861, "dur":5178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824876065, "dur":5858, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824881930, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824882281, "dur":435, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824882722, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824882971, "dur":413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824883390, "dur":427, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824883824, "dur":534, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824884365, "dur":2034, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824886409, "dur":554, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824886968, "dur":528, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824887501, "dur":781, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762791824889514, "dur":1415019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1762791826304608, "dur":97206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762791824856387, "dur":2383, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762791824858770, "dur":11958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762791824870729, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":13, "ts":1762791824870869, "dur":5051, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762791824875934, "dur":173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":13, "ts":1762791824875927, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1762791824876109, "dur":5936, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762791824882095, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762791824882398, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762791824882792, "dur":534, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762791824883332, "dur":479, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762791824883818, "dur":538, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762791824884364, "dur":2033, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762791824886405, "dur":723, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762791824887136, "dur":570, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762791824887713, "dur":761, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762791824889519, "dur":1512102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":14, "ts":1762791824856406, "dur":2368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762791824858775, "dur":11918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762791824870706, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1762791824870693, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1762791824870847, "dur":5089, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762791824875940, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1762791824876086, "dur":5870, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762791824881963, "dur":353, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762791824882327, "dur":470, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762791824882803, "dur":375, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762791824883184, "dur":459, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762791824883649, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762791824884013, "dur":605, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762791824884622, "dur":1961, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762791824886589, "dur":664, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762791824887260, "dur":569, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762791824887834, "dur":609, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762791824889605, "dur":707443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/level0" }}
-,{ "pid":12345, "tid":14, "ts":1762791825597080, "dur":804787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762791824856446, "dur":2337, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762791824858783, "dur":11887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762791824870716, "dur":5397, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762791824876128, "dur":6280, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762791824882413, "dur":437, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762791824882857, "dur":397, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762791824883261, "dur":475, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762791824883747, "dur":442, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762791824884196, "dur":1831, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762791824886033, "dur":588, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762791824886626, "dur":690, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762791824887323, "dur":856, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762791824888202, "dur":1296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762791824889502, "dur":1512322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762791824856425, "dur":2354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762791824858780, "dur":11893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762791824870691, "dur":410, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":16, "ts":1762791824870676, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":16, "ts":1762791824871103, "dur":4976, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762791824876089, "dur":6108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762791824882205, "dur":466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762791824882677, "dur":427, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
-,{ "pid":12345, "tid":16, "ts":1762791824882676, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/Managed/Unity.InputSystem.ForUI.dll" }}
-,{ "pid":12345, "tid":16, "ts":1762791824883106, "dur":379, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762791824883493, "dur":433, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762791824883933, "dur":620, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762791824884560, "dur":2006, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762791824886574, "dur":694, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762791824887274, "dur":741, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762791824888020, "dur":64215, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PackageCache\\com.unity.xr.openxr@1.8.2\\Runtime\\windows\\x64\\UnityOpenXR.dll" }}
-,{ "pid":12345, "tid":16, "ts":1762791824888019, "dur":64218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/Plugins/x86_64/UnityOpenXR.dll" }}
-,{ "pid":12345, "tid":16, "ts":1762791825239505, "dur":888598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/vyporotIotrubutPaletz/KebabParadiseZhiguliDrift_Data/Plugins/x86_64/UnityOpenXR.dll" }}
-,{ "pid":12345, "tid":16, "ts":1762791826128152, "dur":273656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762791826414998, "dur":5193, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1762963004396291, "dur":144244, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762963004540542, "dur":82, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762963004540680, "dur":348, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762963004541049, "dur":2892, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762963004543942, "dur":169880218, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762963174424164, "dur":693, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762963174424889, "dur":76, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762963174424994, "dur":143, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762963174425426, "dur":53, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762963174425508, "dur":179, "ph":"X", "name": "EmitBuildFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762963174425508, "dur":183, "ph":"X", "name": "EmitBuildFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762963174425693, "dur":4814, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1762963004541360, "dur":2586, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1762963004543947, "dur":11266, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1762963004557766, "dur":578, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1762963004558347, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762963004558466, "dur":852, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1762963004559427, "dur":304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.MetaQuestSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004559732, "dur":283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004560016, "dur":455, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004560473, "dur":295, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004560769, "dur":738, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004561508, "dur":287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004561796, "dur":312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004562108, "dur":267, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Inputter.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004562376, "dur":1065, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004563444, "dur":408, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004563853, "dur":593, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004564448, "dur":852, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004565303, "dur":539, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004565846, "dur":438, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004566286, "dur":1243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004567533, "dur":927, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963004568512, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player20b4d169-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1762963004558346, "dur":10423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762963004569051, "dur":59, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1762963004611358, "dur":98960, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762963004739891, "dur":190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762963004739890, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/KebabParadiseZhiguliDrift_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762963004740107, "dur":173421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762963004913531, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1762963004913603, "dur":7853439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1762963012767122, "dur":22541069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963035308481, "dur":4587254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963039896023, "dur":4334698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963044230743, "dur":255336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963044486106, "dur":2412961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963046899507, "dur":256700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963047156613, "dur":200867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963047357889, "dur":313463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762963047671669, "dur":84695571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1762963132367308, "dur":42056803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1762963004541385, "dur":2570, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1762963004543957, "dur":5482, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1762963004549439, "dur":5781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1762963004555225, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1762963004562561, "dur":5876567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1762963010439232, "dur":27022639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762963037462203, "dur":4563839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762963042026333, "dur":2104869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762963044131244, "dur":310625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762963044441890, "dur":99839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762963044542056, "dur":2614059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762963047352799, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1762963047156492, "dur":196389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762963047353189, "dur":266608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762963047620092, "dur":874667, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PackageCache\\com.unity.xr.openxr@1.8.2\\RuntimeLoaders\\windows\\x64\\openxr_loader.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762963047620091, "dur":874669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/KebabParadiseZhiguliDrift_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762963048494771, "dur":117345895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762963165840729, "dur":8583378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1762963004541379, "dur":2570, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1762963004543953, "dur":4057, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1762963004548010, "dur":7219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1762963004555230, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1762963004737659, "dur":173496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1762963004911293, "dur":5527864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1762963010439235, "dur":27022643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762963037462234, "dur":4563835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762963042026379, "dur":2204354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762963044230754, "dur":255571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762963044486613, "dur":2461555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762963046948470, "dur":207785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762963047156672, "dur":200754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762963047357744, "dur":306584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762963047664750, "dur":6603, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\Data\\UnitySubsystems\\UnityOpenXR\\UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":3, "ts":1762963047664749, "dur":6606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/KebabParadiseZhiguliDrift_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":3, "ts":1762963119821427, "dur":46023964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":3, "ts":1762963165845454, "dur":8578692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762963004541404, "dur":2555, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762963004543961, "dur":5689, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762963004549651, "dur":5571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762963004555224, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1762963009959901, "dur":105, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762963004763728, "dur":5196285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1762963009960071, "dur":14724224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762963024684621, "dur":15143202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762963039828155, "dur":2633417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762963042461589, "dur":1883145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762963044344759, "dur":150900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762963044496008, "dur":2507491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762963047003807, "dur":152506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762963047156721, "dur":216358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762963047671330, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762963047373385, "dur":298008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762963047671685, "dur":113140563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1762963160812276, "dur":13611854, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1762963004541423, "dur":2540, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1762963004543965, "dur":191, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1762963004544157, "dur":11069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1762963004555227, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1762963004818001, "dur":1783524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1762963006602016, "dur":28706111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762963035308484, "dur":6717523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762963042026278, "dur":2204067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762963044230375, "dur":255872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762963044486265, "dur":2412876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762963046899559, "dur":256713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762963047357347, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1762963047156696, "dur":200747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762963047357847, "dur":308766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762963047666915, "dur":115636678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1762963163303662, "dur":11120465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762963004541443, "dur":2524, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762963004543968, "dur":3077, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762963004547045, "dur":8180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762963004555226, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1762963004763703, "dur":1837832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1762963010439151, "dur":29388480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762963039827913, "dur":2380983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762963042208916, "dur":2021810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762963044230747, "dur":255362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762963044486147, "dur":2461999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762963046948452, "dur":207808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762963047357345, "dur":82, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762963047156648, "dur":200789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762963047357809, "dur":1935561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762963049293710, "dur":111518433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1762963160812180, "dur":13611922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1762963004541465, "dur":2506, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1762963004543973, "dur":7425, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1762963004551399, "dur":3826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1762963004555240, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1762963004555226, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1762963004777998, "dur":5181953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1762963009960054, "dur":21354151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762963031314516, "dur":8581038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762963039895897, "dur":2313188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762963042209101, "dur":2021565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762963044230716, "dur":255627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762963044486368, "dur":2461808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762963046948486, "dur":207691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762963047156561, "dur":200925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762963047357884, "dur":313450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762963047671714, "dur":113541767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1762963161213540, "dur":13210579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1762963004541485, "dur":2491, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1762963004543977, "dur":7084, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1762963004551062, "dur":4159, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1762963004555235, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1762963004555222, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1762963004763725, "dur":1837807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1762963006601594, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/KebabParadiseZhiguliDrift_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1762963012767009, "dur":27060707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1762963039828073, "dur":2380719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762963042208817, "dur":2021922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Inputter.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762963044230764, "dur":255521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762963044486615, "dur":2461584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762963046948505, "dur":207762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762963047156690, "dur":196127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762963047353141, "dur":266607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762963047620020, "dur":828685, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PackageCache\\com.unity.xr.openxr@1.8.2\\Runtime\\windows\\x64\\UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762963047620019, "dur":828687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/KebabParadiseZhiguliDrift_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762963048448720, "dur":103508586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762963151957339, "dur":22466809, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1762963004541502, "dur":2477, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1762963004543981, "dur":4663, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1762963004548645, "dur":6587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1762963004555233, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1762963004737663, "dur":197817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1762963004935534, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1762963009959859, "dur":19225575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1762963029185872, "dur":10709855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762963039896079, "dur":2565669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762963042461764, "dur":1883104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762963044344888, "dur":150764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762963044496030, "dur":2660249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762963047156752, "dur":200684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762963047357851, "dur":313496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762963047671671, "dur":76267918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1762963123939651, "dur":50484482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762963004541517, "dur":2468, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762963004543987, "dur":106, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762963004544093, "dur":11138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762963004555242, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1762963004555232, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1762963004763683, "dur":171961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1762963004935703, "dur":331, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762963004935701, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762963006601431, "dur":18082766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762963024684614, "dur":15143174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762963039828087, "dur":2380712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762963042208819, "dur":2021775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762963044230710, "dur":264986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762963044495724, "dur":2507910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762963047098100, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762963047003926, "dur":152396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762963047156884, "dur":200566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762963047357855, "dur":308774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762963047666914, "dur":76272650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1762963163303516, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762963123939694, "dur":39364029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1762963163303786, "dur":11120350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1762963004541537, "dur":2453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1762963004543990, "dur":11238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1762963004555246, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":11, "ts":1762963004555229, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1762963004737671, "dur":5701471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1762963010439242, "dur":27022643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762963037462178, "dur":4563718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762963042026254, "dur":2105202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762963044131475, "dur":310409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762963044441912, "dur":99948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762963044542161, "dur":2614089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762963047156655, "dur":200813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762963047357864, "dur":313526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762963047671766, "dur":84695493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1762963132367318, "dur":42056779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1762963004541559, "dur":2436, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1762963004543995, "dur":11223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1762963004555258, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1762963004555222, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1762963004751620, "dur":184035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1762963004935730, "dur":428, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762963004935728, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762963004936446, "dur":34959210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762963039896113, "dur":2565322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762963042461461, "dur":1980405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762963044441891, "dur":100001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762963044542211, "dur":2613867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762963047156487, "dur":200974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762963047357868, "dur":313473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762963047671732, "dur":113541725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1762963161213520, "dur":13210603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1762963004541589, "dur":2411, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1762963004544001, "dur":11213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1762963004558106, "dur":205578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/app.info" }}
+,{ "pid":12345, "tid":13, "ts":1762963004763689, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1762963004878929, "dur":1722599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1762963006601978, "dur":30859890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762963037462173, "dur":4563550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762963042026068, "dur":2204367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762963044230694, "dur":255644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762963044486366, "dur":2461838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762963046948530, "dur":207713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762963047156717, "dur":200712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762963047357852, "dur":308756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762963047666902, "dur":29217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762963047666901, "dur":29219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762963047696128, "dur":126726890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004541607, "dur":2398, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1762963004544006, "dur":11209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1762963004555464, "dur":492, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004555958, "dur":441, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004556400, "dur":311, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004556712, "dur":624, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004557337, "dur":315, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004557653, "dur":526, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004558180, "dur":309, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004558491, "dur":308, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004558800, "dur":344, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004559145, "dur":308, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.MetaQuestSupport.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004559454, "dur":295, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004559750, "dur":496, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004560247, "dur":303, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004560551, "dur":830, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004561382, "dur":284, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004561667, "dur":299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004561967, "dur":266, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Inputter.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004562234, "dur":920, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004563155, "dur":329, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004563485, "dur":555, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004564042, "dur":643, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004564687, "dur":277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004564965, "dur":401, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004565367, "dur":297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004565665, "dur":314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004565980, "dur":863, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004566844, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004567118, "dur":649, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004567768, "dur":288, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004568061, "dur":281, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\kebab-drift\\KebabParadiseZhiguliDrift\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963004555223, "dur":13180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":14, "ts":1762963004612052, "dur":37417199, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":14, "ts":1762963042056062, "dur":17571, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963042056061, "dur":17573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/KebabParadiseZhiguliDrift_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963044131348, "dur":311526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963044442883, "dur":98935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963044542160, "dur":2613982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963047156523, "dur":200932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963047671328, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1762963047357875, "dur":313525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762963047671794, "dur":115759920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1762963163431784, "dur":10992355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762963004541622, "dur":2388, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762963004544010, "dur":11206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762963004555248, "dur":449, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1762963004555222, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1762963004555708, "dur":226977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1762963004878927, "dur":1722549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1762963006601589, "dur":22583865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift.exe" }}
+,{ "pid":12345, "tid":15, "ts":1762963029185479, "dur":10642278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762963039828070, "dur":2380873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762963042208962, "dur":2135837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762963044344817, "dur":148302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762963044493413, "dur":2454848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762963046948550, "dur":207689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762963047352800, "dur":123, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762963047156663, "dur":196267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762963047353229, "dur":266206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762963047619832, "dur":782695, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\Plugins\\LogitechG29\\Runtime\\Plugins\\GameEnginesWrapper\\x64\\LogitechSteeringWheelEnginesWrapper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762963047619831, "dur":782697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/KebabParadiseZhiguliDrift_Data/Plugins/x86_64/LogitechSteeringWheelEnginesWrapper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762963123939501, "dur":121, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762963048402595, "dur":75537070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Plugins/x86_64/LogitechSteeringWheelEnginesWrapper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762963123939731, "dur":50484385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1762963004541644, "dur":2371, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1762963004544015, "dur":11204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1762963004555222, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/cfgu/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":16, "ts":1762963004737548, "dur":173740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":16, "ts":1762963004911687, "dur":5527534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1762963010439298, "dur":20874885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762963031314463, "dur":10711549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762963042026288, "dur":2204145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762963044230701, "dur":264922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762963044495657, "dur":2507805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762963047003809, "dur":152507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762963047156903, "dur":200571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762963047357890, "dur":313494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762963123939503, "dur":175, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1762963047671758, "dur":76267959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/cfgu/KebabParadiseZhiguliDrift_Data/level0.resS" }}
+,{ "pid":12345, "tid":16, "ts":1762963123939773, "dur":50484370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762963174438259, "dur":4504, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
