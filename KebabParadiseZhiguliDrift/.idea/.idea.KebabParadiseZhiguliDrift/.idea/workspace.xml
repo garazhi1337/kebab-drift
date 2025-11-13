@@ -315,6 +315,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/XRCameraPose.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarUpravlenijeModule/RearWheelDrive.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarUpravlenijeModule/Engine.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs" />
       </list>
     </option>
   </component>

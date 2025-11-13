@@ -5669,7 +5669,7 @@ Transform:
   m_GameObject: {fileID: 2036240013}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.191, z: 8.34}
+  m_LocalPosition: {x: -3.5878348, y: -0.191, z: 7.5288143}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -6184,7 +6184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a98f823557ab284492611b81aefc361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vehicleTransform: {fileID: 543450651727622518}
+  vehicleTransform: {fileID: 7163891972647343845}
   rigidbody: {fileID: 919132147805957069}
 --- !u!114 &919132147805957074
 MonoBehaviour:

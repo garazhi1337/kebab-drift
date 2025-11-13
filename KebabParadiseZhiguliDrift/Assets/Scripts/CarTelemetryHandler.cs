@@ -60,7 +60,7 @@ public class CarTelemetryHandler : MonoBehaviour
         var euler = vehicleTransform.eulerAngles;
 
         euler.x = Mathf.Approximately(euler.x, 180) ? 0 : euler.x;
-        euler.z = Mathf.Approximately(euler.z, 180) ? 0 : euler.z;
+        euler.z = (Mathf.Approximately(euler.z, 180) ? 0 : euler.z) * 100.0f;
         euler.y = Mathf.Approximately(euler.y, 180) ? 0 : euler.y;
 
         euler.x = euler.x > 180 ? euler.x - 360 : euler.x;
