@@ -68,8 +68,10 @@
           <e p="MainMenuModule" t="Include" />
           <e p="RealisticGravity.cs" t="Include" />
           <e p="UIModule" t="Include">
+            <e p="KorobkaPeredachUI.cs" t="Include" />
             <e p="PribornajaPanelUI.cs" t="Include" />
           </e>
+          <e p="XRCameraPose.cs" t="Include" />
         </e>
         <e p="Settings" t="Include" />
         <e p="TextMesh Pro" t="Include">

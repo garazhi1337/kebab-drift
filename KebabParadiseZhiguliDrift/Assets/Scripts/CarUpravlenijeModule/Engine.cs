@@ -9,7 +9,7 @@ public class Engine : MonoBehaviour
     public float maxRPM = 7000f;
     public float stallRPM = 800f;
     public float currentRPM = 500f;
-    private float _clutchRPM = 400f;
+    private float _clutchRPM = 350f;
     public float[] gearRatios =
     {
         6.500f,  // 1-я: ~29 км/ч (компромисс)
@@ -42,22 +42,29 @@ public class Engine : MonoBehaviour
 
     private void UpdateRPM()
     {
+        //замедление оборотов от тормозов
+        float brake = Mathf.Max(_inputControllerReader.Handbrake, _inputControllerReader.Brake);
+
         float wheelRPM = ((_rearWheelDrive.CurrentVelocity / 3.6f) / (2f * Mathf.PI * _wheelRadius)) * 60f;
         float movementRPM = wheelRPM * gearRatios[_rulAndKorobka.CurrentGear] * _differentialRatio * (1 - _inputControllerReader.Clutch);
         float clutchRPM = _clutchRPM * _inputControllerReader.Clutch;
         float engineRPM = minRPM + (maxRPM - minRPM) * _inputControllerReader.Throttle * (1 - _inputControllerReader.Clutch);
-
+        
         // Совмещаем оба влияния
-        currentRPM = Mathf.Lerp(currentRPM, movementRPM + engineRPM + clutchRPM, Time.deltaTime * 2f);
+        currentRPM = Mathf.Lerp(currentRPM, movementRPM + engineRPM + clutchRPM, Time.deltaTime * 10f);
 
         // Проверка на заглохание
-        if (_inputControllerReader.Throttle > 0.05f && currentRPM < stallRPM)
+        if (_rulAndKorobka.CurrentGear != 7 && _inputControllerReader.Throttle > 0.05f && currentRPM < stallRPM)
         {
             Stall();
         }
 
         // Ограничение RPM
-        currentRPM = Mathf.Clamp(currentRPM, 0, maxRPM);
+        if (currentRPM > maxRPM)
+        {
+            currentRPM = Mathf.Lerp(currentRPM, maxRPM, Time.deltaTime * 30f);
+        }
+        
         _pribornajaPanel.KmH = (int)_rearWheelDrive.CurrentVelocity;
         _pribornajaPanel.ObMin = (int)currentRPM;
     }
@@ -65,7 +72,8 @@ public class Engine : MonoBehaviour
     public void Stall()
     {
         // Дополнительная логика заглохания
-        currentRPM = Mathf.Lerp(currentRPM, minRPM, Time.deltaTime * 5.0f);
+        currentRPM = Mathf.Lerp(currentRPM, minRPM, Time.deltaTime * 60f);
+        //можно добавить звук
     }
 
     public float GetTorqueFromRPM()

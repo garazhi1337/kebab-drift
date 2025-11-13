@@ -18,13 +18,14 @@ public class XRCameraSetup : MonoBehaviour
         {
             // Get the camera's current world position and rotation
             Transform cameraTransform = xrOrigin.Camera.transform;
-       
+            
 
             // Use the XROrigin method to teleport the camera
             xrOrigin.MoveCameraToWorldLocation(_cameraDesiredPlace.position);
 
             // Match the origin's forward direction to align the camera
-            xrOrigin.MatchOriginUpCameraForward(Vector3.up, cameraTransform.forward);
+            //xrOrigin.MatchOriginUpCameraForward(Vector3.up, _cameraDesiredPlace.forward);
+            transform.rotation = _cameraDesiredPlace.rotation;
 
             Debug.Log("XR Camera has been forced to its scene position.");
         }

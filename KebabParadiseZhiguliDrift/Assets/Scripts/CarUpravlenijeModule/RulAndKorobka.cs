@@ -6,7 +6,14 @@ using UnityEngine;
 public class RulAndKorobka : MonoBehaviour
 {
     [SerializeField] private InputControllerReader _inputControllerReader;
+    [SerializeField] private KorobkaPeredachUI _korobkaPeredachUI;
+    [Header("moveable parts")]
     [SerializeField] private Transform _rul;
+    [SerializeField] private Transform _throttle;
+    [SerializeField] private Transform _brake;
+    [SerializeField] private Transform _clutch;
+    [SerializeField] private Transform _handbrakae;
+    
     [SerializeField] private Engine _engine;
 
     public float clutchValue;
@@ -15,6 +22,7 @@ public class RulAndKorobka : MonoBehaviour
     public float steerValue;
     public int CurrentGear = 7;
     private bool[] gearActive = new bool[7];
+    private bool[] previousGearActive = new bool[7];
 
     private void Start()
     {
@@ -91,13 +99,22 @@ public class RulAndKorobka : MonoBehaviour
     private void UpdateGearState()
     {
         bool anyGearActive = false;
+        bool stateChanged = false;
+    
         for (int i = 0; i < gearActive.Length; i++)
         {
+            if (gearActive[i] != previousGearActive[i])
+            {
+                stateChanged = true;
+                _korobkaPeredachUI.SetPeredachActive(i);
+                previousGearActive[i] = gearActive[i];
+            }
+        
             if (gearActive[i])
             {
                 CurrentGear = i;
                 anyGearActive = true;
-                break;
+                break; // Уберите break чтобы сохранять последнюю активную передачу
             }
         }
 
@@ -105,8 +122,12 @@ public class RulAndKorobka : MonoBehaviour
         {
             CurrentGear = 7;
         }
-        
-        //if (_inputControllerReader.Clutch < 0.5f && anyGearActive && _engine) _engine.Stall();
+    
+        // Проверять заглохание ТОЛЬКО при изменении состояния передачи
+        if (stateChanged && _inputControllerReader.Clutch < 0.5f && anyGearActive) 
+        {
+            _engine.Stall();
+        }
     }
 
 }
