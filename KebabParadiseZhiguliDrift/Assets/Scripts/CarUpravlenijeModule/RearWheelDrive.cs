@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using Bhaptics.SDK2;
 using LogitechG29.Sample.Input;
 using UnityEngine;
 
@@ -47,7 +48,7 @@ public class RearWheelDrive : MonoBehaviour
 	{
 		float angle = 0;
 		float torque = 0;
-		Debug.Log(_engine.GetTorqueFromRPM());
+		//Debug.Log(_engine.GetTorqueFromRPM());
 		try
 		{
 			angle = maxAngle * _rulAndKorobka.steerValue;
@@ -68,6 +69,7 @@ public class RearWheelDrive : MonoBehaviour
 		if (_engine.currentRPM > _engine.maxRPM + _engine.minRPM && _brakeCoroutine == null) //мега превышение оборотов, автоматическое экстренное торможение
 		{
 			_brakeCoroutine = StartCoroutine(ControlledBrakeToStop());
+			BhapticsLibrary.Play(eventId: BhapticsEvent.AVERAGE_CRUSH, startMillis: 0, intensity: 1, duration: 1, angleX: 0, offsetY: 0); //тактильный ивент
 		}
 
 		foreach (WheelCollider wheel in wheels)
@@ -86,12 +88,14 @@ public class RearWheelDrive : MonoBehaviour
 			if (_inputControllerReader.Brake > _inputControllerReader.Handbrake)
 			{
 				wheel.brakeTorque = _brakeForce / 4.0f * _inputControllerReader.Brake;
+				BhapticsLibrary.Play(eventId: BhapticsEvent.MINIMAL_CRUSH, startMillis: 0, intensity: 1, duration: 1, angleX: 0, offsetY: 0); //тактильный ивент
 			}
 			else
 			{
 				if (wheel.transform.localPosition.z < 0)
 				{
 					wheel.brakeTorque = _brakeForce / 4.0f * _inputControllerReader.Handbrake;
+					BhapticsLibrary.Play(eventId: BhapticsEvent.MINIMAL_CRUSH, startMillis: 0, intensity: 1, duration: 1, angleX: 0, offsetY: 0); //тактильный ивент
 				}
 			}
 

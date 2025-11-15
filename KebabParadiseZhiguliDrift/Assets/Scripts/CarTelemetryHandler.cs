@@ -44,7 +44,7 @@ public class CarTelemetryHandler : MonoBehaviour
             UpdateAngles();
             UpdateVelocity();
 
-            Debug.Log(_telemetryDataData.ToString());
+            //Debug.Log(_telemetryDataData.ToString());
 
             yield return new WaitForSeconds(WAIT_TIME);
         }
@@ -59,9 +59,9 @@ public class CarTelemetryHandler : MonoBehaviour
     {
         var euler = vehicleTransform.eulerAngles;
 
-        euler.x = Mathf.Approximately(euler.x, 180) ? 0 : euler.x;
-        euler.z = (Mathf.Approximately(euler.z, 180) ? 0 : euler.z) * 100.0f;
-        euler.y = Mathf.Approximately(euler.y, 180) ? 0 : euler.y;
+        euler.x = (Mathf.Approximately(euler.x, 180) ? 0 : euler.x) * 15.0f;
+        euler.z = (Mathf.Approximately(euler.z, 180) ? 0 : euler.z) * 15.0f;
+        euler.y = (Mathf.Approximately(euler.y, 180) ? 0 : euler.y) * 15.0f;
 
         euler.x = euler.x > 180 ? euler.x - 360 : euler.x;
         euler.z = euler.z > 180 ? euler.z - 360 : euler.z;

@@ -629,6 +629,10 @@
       <Project>{2d3f4c25-140c-477a-906c-524d9442b0f2}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Bhaptics.SDK2.Player.csproj">
+      <Project>{b7b7cb45-fd77-5749-4e3f-0e4ba8ef03c4}</Project>
+      <Name>Bhaptics.SDK2.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.ConformanceAutomation.Player.csproj">
       <Project>{089a5761-e727-b6bc-cdde-9ded387c25d7}</Project>
       <Name>Unity.XR.OpenXR.Features.ConformanceAutomation.Player</Name>
