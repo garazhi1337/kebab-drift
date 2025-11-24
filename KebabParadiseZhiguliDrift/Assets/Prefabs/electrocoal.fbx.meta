@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 668f64a0e8f627c4fa694bab35c819dd
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beton_zabor
+    second: {fileID: 2100000, guid: f71a67550ef4a1b4a9a3e72811cc0f7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: building_industrial_1
+    second: {fileID: 2100000, guid: 75b0ef3292c74e64c8b01bf90f41555a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: diksi
+    second: {fileID: 2100000, guid: 9e3d27afbec5b444ca4617d0aca5ddf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dom_dva_etaza
+    second: {fileID: 2100000, guid: d6a7e3df1d0266e4698a04d2d3b2be70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dom_dva_etaza_2
+    second: {fileID: 2100000, guid: f3213d654c1501e45a2456999741f948, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass
+    second: {fileID: 2100000, guid: 1f870c6899a5e8b4e9ba4952d77bcbab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hrush2_1
+    second: {fileID: 2100000, guid: 704c50cb9c80d1d4cbeeffb180bdb1c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hrush4_1
+    second: {fileID: 2100000, guid: 9f060c9c53be87f4c902315e56cfbc4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hrush5
+    second: {fileID: 2100000, guid: 39f71f0214ec45a4a9555fc3f8ae9674, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hrush5_2
+    second: {fileID: 2100000, guid: 08b6e505df1dbac42b092c2498675e28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hrush5_3
+    second: {fileID: 2100000, guid: 32a33ae0aad5f8847b0a653fa249cd71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kiosk
+    second: {fileID: 2100000, guid: 19f4321c14cb6094cbd0746e3d9567f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kust
+    second: {fileID: 2100000, guid: 0034cc551a397a44a92736eca7676642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: magnit
+    second: {fileID: 2100000, guid: f79fd990eea70864b96352047a1570df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ostanovka
+    second: {fileID: 2100000, guid: 4f617ab5e460a9548bc11010b1f364b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road
+    second: {fileID: 2100000, guid: 9f5454c560dfd9c48b10eaf0362606a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road_thin
+    second: {fileID: 2100000, guid: 1d4f8f3ed5e8d364fb630f94b857595d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree
+    second: {fileID: 2100000, guid: 21306b34e63bcdf48b48557fc54cb80f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree_leaves1
+    second: {fileID: 2100000, guid: 01042546f5f683d4186f0f84463b883d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree_leaves2
+    second: {fileID: 2100000, guid: 5bc2055df00aa6345bd3980441486028, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree_leaves3
+    second: {fileID: 2100000, guid: 1caaf33e2bcac8e44888c10bdbc15e7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trotuare
+    second: {fileID: 2100000, guid: cc2ff5837162f074ab4606ea58f15152, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: village1
+    second: {fileID: 2100000, guid: fc226d63159696c46bca0d94e46b409e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: village2
+    second: {fileID: 2100000, guid: 09c44d03efe50424788791308f58b950, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: village3
+    second: {fileID: 2100000, guid: 0ff4b1dffaf8f4c4c8b283f5a950c2c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: village4
+    second: {fileID: 2100000, guid: a44c7ac2acd73bd44b897094d3c9f7d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wildberries
+    second: {fileID: 2100000, guid: 00a534152d45d594d87f3098cdf7e63c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zabor_metal
+    second: {fileID: 2100000, guid: 93729eb19d78e8e47b7db3073ccc4eda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zabor_metal_1
+    second: {fileID: 2100000, guid: 97d9a480991d9b04aa2e4483f2d001c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zabor_metal_2
+    second: {fileID: 2100000, guid: 7c656e8548b2a7444afdcc93d8064270, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zabor_metal_3
+    second: {fileID: 2100000, guid: 6de9386886634b74d99d9212421408e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zavod
+    second: {fileID: 2100000, guid: 1f44707f3dfc3334399dbfb035635879, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beton_zabor
+    second: {fileID: 2800000, guid: f414431955e482046bb8146ab42684fa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: diksi
+    second: {fileID: 2800000, guid: 5735b4a4d5e23124ca4b69f63e31db45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dom_dva_etaza
+    second: {fileID: 2800000, guid: d0b577c569fdf984d87601628338ca9f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dom_dva_etaza_2
+    second: {fileID: 2800000, guid: a5fa2d0bd8cdb694bab0d6ace4ecdfbf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hrush
+    second: {fileID: 2800000, guid: 37ef5f6b34152014f97f2d6ef41bdec2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hrush2
+    second: {fileID: 2800000, guid: 3227a6574793e7b4ca56836c0c5d569b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hrush4_1_big_roof
+    second: {fileID: 2800000, guid: 18adfdc0e10a3ed48936d6036e40f7c7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hrush4_2_big_roof
+    second: {fileID: 2800000, guid: 2999b49e759b71d46b5bd5923833a6d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hrushevka6
+    second: {fileID: 2800000, guid: b3664e85677eaa144ac936a3b396d241, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: indus_1
+    second: {fileID: 2800000, guid: 40073a5c3eb5dcf418e5bdb727e720a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kiosk
+    second: {fileID: 2800000, guid: 97a968b996d68b44d94644a9b2d736b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kust
+    second: {fileID: 2800000, guid: 3cddaa043e6b9844bbe7b95c1ad77098, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: leaves_tree1
+    second: {fileID: 2800000, guid: 7aed7ef3c9bc2034a963b5b3a0312381, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: leaves_tree2
+    second: {fileID: 2800000, guid: 5b50524c89998274ab6ce8e43476901c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: leaves_tree3
+    second: {fileID: 2800000, guid: 84d7971bd75f9c04f94f4ff809a57f91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: magnit
+    second: {fileID: 2800000, guid: 1cb0e2951e371bf488ddf2fdf1234600, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ostanovka
+    second: {fileID: 2800000, guid: c2f66e3e9ecc601449cd94237922d29b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: road
+    second: {fileID: 2800000, guid: ac53d49cc4f660b4aac8945b1a4a86a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: road_thin
+    second: {fileID: 2800000, guid: 12651a25224e9674b8641fa7319cd2ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: trava
+    second: {fileID: 2800000, guid: a2ff4afdc0eedcc409bcda1288dd6417, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree
+    second: {fileID: 2800000, guid: 3efde451451550744a3de1df5ebddb31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: trotuare
+    second: {fileID: 2800000, guid: 50215ecd4d52d0c4ea7f4400fe4d3072, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: village1
+    second: {fileID: 2800000, guid: 47f1d34a9eebe6e4caf5f9bbba025fd6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: village3
+    second: {fileID: 2800000, guid: 2d3b9ee8680a27847858b555e50ce9d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: village4
+    second: {fileID: 2800000, guid: 4d0e414fcc14c9a408e93ba74ddbfd78, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: village_small_2
+    second: {fileID: 2800000, guid: 21d0c56f628ef1e4cae92e2f522eeab0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildberries
+    second: {fileID: 2800000, guid: e3ae13943afaecd4a98dedf2e2c9000f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: zabor_blue
+    second: {fileID: 2800000, guid: dc62eafd6ec670a42936e58affb1b6b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: zabor_brown
+    second: {fileID: 2800000, guid: d2674e1146d4226439a80f4d42972950, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: zabor_green
+    second: {fileID: 2800000, guid: c3a0d44ea5556a04a8a40748256115a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: zabor_metal
+    second: {fileID: 2800000, guid: c2d37db01e0ad3b4eb4f403eeb17c680, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: zavod
+    second: {fileID: 2800000, guid: 10f232c3dc635774089f10e787b08c0c, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

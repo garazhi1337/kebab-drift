@@ -22,15 +22,28 @@
     <list default="true" id="032e5dad-1bfe-425b-ab4f-038da0d04e53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KebabParadiseZhiguliDrift/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KebabParadiseZhiguliDrift/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KebabParadiseZhiguliDrift/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KebabParadiseZhiguliDrift/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.Player.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.Player.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.Player.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.Player.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/bagazniq.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/bagazniq.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/red.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/side_mirror_holder.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/side_mirror_holder.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/sidenne.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/sidenne.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/stceplenije.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/stceplenije.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CarTelemetryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CarTelemetryHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CarUpravlenijeModule/RearWheelDrive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CarUpravlenijeModule/RearWheelDrive.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KebabParadiseZhiguliDrift.sln" beforeDir="false" afterPath="$PROJECT_DIR$/KebabParadiseZhiguliDrift.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/bagazniq.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/bagazniq.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/gas.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/gas.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/qoleso.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/qoleso.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/qorobqa_peredac.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/qorobqa_peredac.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/quzov.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/quzov.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/ruchka_right 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/ruchka_right 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/ruchka_right 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/ruchka_right 2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/ruchka_right.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/ruchka_right.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/rul.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/rul.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/side_mirror_holder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/side_mirror_holder.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/sidenne.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/sidenne.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/stceplenije.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/stceplenije.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/tormoz.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/tormoz.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" afterDir="false" />
@@ -38,31 +51,21 @@
       <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/276f060065e14adaac79fb5f2d94dbfa.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/276f060065e14adaac79fb5f2d94dbfa.bhc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/a110ffe6b760e4b56cb86ae44bc7857d.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/a110ffe6b760e4b56cb86ae44bc7857d.bhc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/f890d1fdde3a07f1cb7ddaf50227f1a0.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/f890d1fdde3a07f1cb7ddaf50227f1a0.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/fb1ac9f24683259e56fa1089a4e46272.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/fb1ac9f24683259e56fa1089a4e46272.bhc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.InspectorWindow.pref" beforeDir="false" afterPath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.InspectorWindow.pref" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ilpp.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ilpp.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Inputter.Runtime.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Inputter.Runtime.Editor.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Inputter.Runtime.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Inputter.Runtime.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +76,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIModule/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CenterOfMass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/RotatShawarma.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/ShawarmaSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/ShawarmaCollisionCounter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,7 +96,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RearWheelDrive.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Engine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIModule/PribornajaPanelUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UIModule/KorobkaPeredachUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarUpravlenijeModule/RulAndKorobka.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/XRCameraPose.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarUpravlenijeModule/Engine.cs" />
@@ -97,6 +103,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CarUpravlenijeModule/RearWheelDrive.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarTelemetryHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImmersionModule/CollisionSideDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIModule/KorobkaPeredachUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShawarmaSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIModule/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/RotatShawarma.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShawarmaCollisionCounter.cs" />
       </list>
     </option>
   </component>
@@ -151,7 +162,7 @@
       <workItem from="1761760179983" duration="24376000" />
       <workItem from="1762593992927" duration="7466000" />
       <workItem from="1762803015310" duration="21043000" />
-      <workItem from="1763210046408" duration="3694000" />
+      <workItem from="1763210046408" duration="14134000" />
     </task>
     <servers />
   </component>
