@@ -11,6 +11,8 @@ public class RearWheelDrive : MonoBehaviour
 	[SerializeField] private Engine _engine;
 	[SerializeField] private float _brakeForce;
 	[SerializeField] private InputControllerReader _inputControllerReader;
+	[SerializeField] private PribornajaPanelUI _pribornajaPanel;
+	[SerializeField] private SoundManager _soundManager;
 
 	private WheelCollider[] wheels;
 
@@ -47,28 +49,15 @@ public class RearWheelDrive : MonoBehaviour
 	private void HandleMovement()
 	{
 		float angle = 0;
+
+		angle = maxAngle * _rulAndKorobka.steerValue;
+
 		float torque = 0;
-		//Debug.Log(_engine.GetTorqueFromRPM());
-		try
-		{
-			angle = maxAngle * _rulAndKorobka.steerValue;
-			if (_rulAndKorobka.CurrentGear >= 0 && _rulAndKorobka.CurrentGear < _engine.gearRatios.Length)
-			{
-				torque = _engine.GetTorqueFromRPM() * _engine.gearRatios[_rulAndKorobka.CurrentGear] * _engine._differentialRatio * 0.9f / _engine._wheelRadius;
-			}
-			else
-			{
-				torque = 0; // Нейтральная передача или невалидная
-			}
-		}
-		catch (Exception e)
-		{
-			//артхаус постирония хоррор
-		}
-		
+		if (_rulAndKorobka.CurrentGear != 7) torque = _engine.GetTorqueFromRPM() * (_engine.gearRatios[0] / _engine.gearRatios[_rulAndKorobka.CurrentGear]) * _engine._differentialRatio * 2.5f;
+
 		if (_engine.currentRPM > _engine.maxRPM + _engine.minRPM && _brakeCoroutine == null) //мега превышение оборотов, автоматическое экстренное торможение
 		{
-			_brakeCoroutine = StartCoroutine(ControlledBrakeToStop());
+			//_brakeCoroutine = StartCoroutine(ControlledBrakeToStop());
 			BhapticsLibrary.Play(eventId: BhapticsEvent.AVERAGE_CRUSH, startMillis: 0, intensity: 1, duration: 1, angleX: 0, offsetY: 0); //тактильный ивент
 		}
 
@@ -85,18 +74,21 @@ public class RearWheelDrive : MonoBehaviour
 				wheel.motorTorque = torque;
 			}
 
-			if (_inputControllerReader.Brake > _inputControllerReader.Handbrake)
+			if (_inputControllerReader.Brake > 0.01f)
 			{
 				wheel.brakeTorque = _brakeForce / 4.0f * _inputControllerReader.Brake;
 				BhapticsLibrary.Play(eventId: BhapticsEvent.MINIMAL_CRUSH, startMillis: 0, intensity: 1, duration: 1, angleX: 0, offsetY: 0); //тактильный ивент
+
+				if (CurrentVelocity > 10)
+				{
+					_soundManager.AdjustBrakeSound(_inputControllerReader.Brake, 0);
+					_soundManager.PlaySound(SoundManager.Sounds.BRAKE);
+				}
 			}
 			else
 			{
-				if (wheel.transform.localPosition.z < 0)
-				{
-					wheel.brakeTorque = _brakeForce / 4.0f * _inputControllerReader.Handbrake;
-					BhapticsLibrary.Play(eventId: BhapticsEvent.MINIMAL_CRUSH, startMillis: 0, intensity: 1, duration: 1, angleX: 0, offsetY: 0); //тактильный ивент
-				}
+				wheel.brakeTorque = 0;
+				_soundManager.AdjustBrakeSound(0, 0);
 			}
 
 			// update visual wheels if any
@@ -115,42 +107,7 @@ public class RearWheelDrive : MonoBehaviour
 		}
 		
 		CurrentVelocity = Convert.ToSingle(_rb.velocity.magnitude * 3.6);
-	}
-	
-	private IEnumerator ControlledBrakeToStop()
-	{
-		bool isBraking = true;
-    
-		while (isBraking && _rb.velocity.magnitude > 0.5f)
-		{
-			// Рассчитываем тормозной момент на основе текущей скорости
-			float currentSpeed = _rb.velocity.magnitude;
-			float brakeTorque = currentSpeed * 800f; // Коэффициент можно настроить
-        
-			// Ограничиваем максимальный тормозной момент
-			brakeTorque = Mathf.Clamp(brakeTorque, 500f, 4000f);
-        
-			foreach (var wheel in wheels)
-			{
-				wheel.brakeTorque = brakeTorque;
-			}
-        
-			// Проверяем условия прерывания
-			if (currentSpeed < 0.5f)
-			{
-				isBraking = false;
-			}
-        
-			yield return null;
-		}
-    
-		// Завершение торможения
-		foreach (var wheel in wheels)
-		{
-			wheel.brakeTorque = 0f;
-		}
-    
-		_brakeCoroutine = null;
+		_pribornajaPanel.KmH = (int) CurrentVelocity;
 	}
 }
 

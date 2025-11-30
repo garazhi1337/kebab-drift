@@ -7,6 +7,7 @@ using UnityEngine;
 public class CollisionSideDetector : MonoBehaviour
 {
     [SerializeField] private Transform[] _sides; //0-лево верх 1-право верх 2-лево низ 3-право низ
+    [SerializeField] private SoundManager _soundManager;
 
     private void OnCollisionEnter(Collision other)
     {
@@ -39,6 +40,16 @@ public class CollisionSideDetector : MonoBehaviour
         {
             BhapticsLibrary.Play(eventId: BhapticsEvent.MINIMAL_CRASH_BACK, startMillis: 0, intensity: 1, duration: 1, angleX: 0, offsetY: 0); //тактильный ивент
             Debug.Log("помеха сзади");
+        }
+
+        if (other.gameObject.CompareTag("shawarma"))
+        {
+            _soundManager.PlaySound(SoundManager.Sounds.CRASH_WET);
+        }
+
+        if (!other.gameObject.CompareTag("shawarma"))
+        {
+            _soundManager.PlaySound(SoundManager.Sounds.CRASH_HARD);
         }
     }
 }

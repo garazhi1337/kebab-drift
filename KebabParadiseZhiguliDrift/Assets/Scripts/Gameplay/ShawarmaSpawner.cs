@@ -7,8 +7,8 @@ public class CoroutineShawarmaSpawner : MonoBehaviour
     [Header("Spawn Settings")]
     [SerializeField] private GameObject _shawarmaPrefab;
     [SerializeField] private MeshCollider _roadCollider;
-    [SerializeField] private float _spawnInterval = 5f;
-    [SerializeField] private float _spawnHeight = 2f;
+    [SerializeField] private float _spawnInterval;
+    [SerializeField] private float _spawnHeight;
     private Coroutine _spawnCoroutine;
 
     void Start()

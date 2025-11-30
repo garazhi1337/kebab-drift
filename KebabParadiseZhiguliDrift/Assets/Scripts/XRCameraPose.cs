@@ -1,37 +1,33 @@
+using System;
 using UnityEngine;
 using Unity.XR.CoreUtils;
+using UnityEngine.InputSystem;
+using UnityEngine.XR.Interaction.Toolkit;
+using CommonUsages = UnityEngine.XR.CommonUsages;
 
 public class XRCameraSetup : MonoBehaviour
 {
-    [SerializeField] private Transform _cameraDesiredPlace;
+    [SerializeField] InputActionReference _actionRef;
+    [SerializeField] private Transform _resetTransform;
+    [SerializeField] private GameObject _player;
+    [SerializeField] private Camera _playerHead;
 
-    void Start()
+    private void OnEnable()
     {
-        Invoke(nameof(ForceCameraToPose), 0.1f);
+        _actionRef.action.performed += RotateCameraByAndPlaceToDesired;
     }
 
-    public void ForceCameraToPose()
+    private void OnDisable()
     {
-        XROrigin xrOrigin = GetComponent<XROrigin>();
+        _actionRef.action.performed -= RotateCameraByAndPlaceToDesired;
+    }
 
-        if (xrOrigin != null && xrOrigin.Camera != null)
-        {
-            // Get the camera's current world position and rotation
-            Transform cameraTransform = xrOrigin.Camera.transform;
-            
-
-            // Use the XROrigin method to teleport the camera
-            xrOrigin.MoveCameraToWorldLocation(_cameraDesiredPlace.position);
-
-            // Match the origin's forward direction to align the camera
-            //xrOrigin.MatchOriginUpCameraForward(Vector3.up, _cameraDesiredPlace.forward);
-            transform.rotation = _cameraDesiredPlace.rotation;
-
-            Debug.Log("XR Camera has been forced to its scene position.");
-        }
-        else
-        {
-            Debug.LogError("XROrigin or Camera not found!");
-        }
+    private void RotateCameraByAndPlaceToDesired(InputAction.CallbackContext context)
+    {
+        float rotationAngleY = _resetTransform.rotation.eulerAngles.y - _playerHead.transform.rotation.eulerAngles.y;
+        Vector3 diftanceDiff = _resetTransform.position - _playerHead.transform.position;
+        
+        _player.transform.Rotate(0, rotationAngleY, 0);
+        _player.transform.position += diftanceDiff;
     }
 }

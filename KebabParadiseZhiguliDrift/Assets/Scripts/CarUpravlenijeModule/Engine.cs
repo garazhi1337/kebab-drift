@@ -1,89 +1,132 @@
+using System.Collections;
 using UnityEngine;
 using LogitechG29.Sample.Input;
+using TMPro;
 using Unity.VisualScripting;
 
 public class Engine : MonoBehaviour
 {
     [Header("Engine Settings")]
-    public float minRPM = 500f;
-    public float maxRPM = 7000f;
-    public float stallRPM = 800f;
-    public float currentRPM = 500f;
-    private float _clutchRPM = 350f;
-    public float[] gearRatios =
-    {
-        6.500f,  // 1-я: ~29 км/ч (компромисс)
-        3.370f,  // 2-я: 50 км/ч  
-        2.406f,  // 3-я: 75 км/ч
-        1.925f,  // 4-я: 100 км/ч
-        1.604f,  // 5-я: 125 км/ч
-        1.337f,  // 6-я: 150 км/ч
-        -6.500f, // Задняя
-        0f       // Нейтраль
-    };
+    public float minRPM;
+    public float maxRPM;
+    public float stallRPM;
+    public float currentRPM;
+    public float[] gearRatios;
     
     [Header("Torque Curve Settings")]
     [SerializeField] private AnimationCurve _torqueCurve;
-
     [SerializeField] private float _maxTorque;
-    public float _differentialRatio = 3.0f;
+    public float _differentialRatio;
+    
+    [Header("References")]
     [SerializeField] private RulAndKorobka _rulAndKorobka;
     [SerializeField] private InputControllerReader _inputControllerReader;
     [SerializeField] private RearWheelDrive _rearWheelDrive;
-    [SerializeField] private Rigidbody _rb;
     [SerializeField] private PribornajaPanelUI _pribornajaPanel;
+    [SerializeField] private SoundManager _soundManager;
     
-    public float _wheelRadius; // радиус колеса в метрах
+    public float _wheelRadius;
+
+    private bool isStalling = false;
+    private int previousGear;
+    private IEnumerator _stallCoroutine = null;
+
+    private float engineRPM = 0f;
+    
+    private void Start()
+    {
+        previousGear = _rulAndKorobka.CurrentGear;
+    }
 
     private void Update()
     {
         UpdateRPM();
+        previousGear = _rulAndKorobka.CurrentGear;
     }
 
     private void UpdateRPM()
     {
-        //замедление оборотов от тормозов
-        float brake = Mathf.Max(_inputControllerReader.Handbrake, _inputControllerReader.Brake);
-
-        float wheelRPM = ((_rearWheelDrive.CurrentVelocity / 3.6f) / (2f * Mathf.PI * _wheelRadius)) * 60f;
-        float movementRPM = wheelRPM * gearRatios[_rulAndKorobka.CurrentGear] * _differentialRatio * (1 - _inputControllerReader.Clutch);
-        float clutchRPM = _clutchRPM * _inputControllerReader.Clutch;
-        float engineRPM = minRPM + (maxRPM - minRPM) * _inputControllerReader.Throttle * (1 - _inputControllerReader.Clutch);
-        
-        // Совмещаем оба влияния
-        currentRPM = Mathf.Lerp(currentRPM, movementRPM + engineRPM + clutchRPM, Time.deltaTime * 10f);
-
-        // Проверка на заглохание
-        if (_rulAndKorobka.CurrentGear != 7 && _inputControllerReader.Throttle > 0.05f && currentRPM < stallRPM)
+        // ПРАВИЛЬНЫЙ расчет - БЕЗ повторного применения передаточных чисел
+        float physicalWheelRPM = CalculateCorrectWheelRPM();
+        float transmissionRPM = physicalWheelRPM * gearRatios[_rulAndKorobka.CurrentGear] * _differentialRatio;
+    
+        if (_rulAndKorobka.CurrentGear != 7)
         {
-            Stall();
+            float targetRPM = _inputControllerReader.Throttle * (maxRPM - stallRPM) + stallRPM;
+            float clutch = _inputControllerReader.Clutch;
+            
+            if (clutch > 0.5f) 
+            {
+                if (currentRPM < minRPM && _inputControllerReader.Throttle > 0.1f)
+                {
+                    currentRPM = Mathf.Lerp(currentRPM, stallRPM, 5 * Time.deltaTime);
+                }
+                else
+                {
+                    currentRPM = Mathf.Lerp(currentRPM, targetRPM, 10 * Time.deltaTime);
+                }
+            }
+            else 
+            {
+                if (currentRPM < minRPM) 
+                { 
+                    if (_inputControllerReader.Throttle > 0.1f)
+                    {
+                        currentRPM = Mathf.Lerp(currentRPM, stallRPM, 10 * Time.deltaTime) + Mathf.Lerp(transmissionRPM, transmissionRPM * clutch, 10 * Time.deltaTime);;
+                    }
+                    else
+                    {
+                        currentRPM = Mathf.Lerp(transmissionRPM, transmissionRPM * clutch, 10 * Time.deltaTime);
+                    }
+                }
+                else
+                {
+                    currentRPM = Mathf.Lerp(transmissionRPM, transmissionRPM * clutch, 10 * Time.deltaTime) + Mathf.Lerp(targetRPM, targetRPM * clutch, 10 * Time.deltaTime);
+                }
+            }
         }
-
-        // Ограничение RPM
-        if (currentRPM > maxRPM)
+        else
         {
-            currentRPM = Mathf.Lerp(currentRPM, maxRPM, Time.deltaTime * 30f);
+            float targetRPM = (_inputControllerReader.Throttle * (maxRPM - stallRPM) + stallRPM) * _inputControllerReader.Clutch;
+            // ИСПРАВЛЕНО: на нейтрали НЕ используем transmissionRPM
+            currentRPM = Mathf.Lerp(currentRPM, targetRPM, 10 * Time.deltaTime);
         }
         
-        _pribornajaPanel.KmH = (int)_rearWheelDrive.CurrentVelocity;
+        currentRPM = Mathf.Clamp(currentRPM, stallRPM, maxRPM);
+        
         _pribornajaPanel.ObMin = (int)currentRPM;
+        _pribornajaPanel.KmH = (int)_rearWheelDrive.CurrentVelocity;
     }
 
-    public void Stall()
+    private float CalculateCorrectWheelRPM()
     {
-        // Дополнительная логика заглохания
-        currentRPM = Mathf.Lerp(currentRPM, minRPM, Time.deltaTime * 60f);
-        //можно добавить звук
+        // WheelCollider.rpm уже учитывает физику, поэтому используем более простой расчет
+        // Берем скорость машины и переводим в RPM колес
+        
+        float speedKmH = _rearWheelDrive.CurrentVelocity;
+        float speedMPS = speedKmH / 3.6f; // переводим в м/с
+        
+        // RPM колес = (скорость в м/с) / (длина окружности колеса) * 60
+        float wheelCircumference = 2f * Mathf.PI * _wheelRadius;
+        float wheelRPM = (speedMPS / wheelCircumference) * 60f;
+        
+        return wheelRPM;
     }
 
     public float GetTorqueFromRPM()
     {
-        if (currentRPM < stallRPM) 
+        if (currentRPM < minRPM)
             return 0f;
-        
-        float rpmNormalized = currentRPM / maxRPM;
-        float torqueMultiplier = _torqueCurve.Evaluate(rpmNormalized);
     
-        return _maxTorque * torqueMultiplier;
+        float rpmNormalized = Mathf.Clamp01((currentRPM - minRPM) / (maxRPM - minRPM));
+        float torqueMultiplier = _torqueCurve.Evaluate(rpmNormalized);
+
+        _soundManager.AdjustMotorSound(rpmNormalized, rpmNormalized * 3);
+        _soundManager.PlaySound(SoundManager.Sounds.MOTOR);
+        
+        float clutchFactor = 1f - _inputControllerReader.Clutch;
+        float throttleFactor = _inputControllerReader.Throttle;
+        
+        return _maxTorque * torqueMultiplier * throttleFactor * clutchFactor;
     }
 }

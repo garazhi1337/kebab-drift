@@ -273,7 +273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rotationSpeed: 100
   _rb: {fileID: 8498658569201130402}
-  _destroyTime: 120
+  _destroyTime: 60
 --- !u!54 &8498658569201130402
 Rigidbody:
   m_ObjectHideFlags: 0

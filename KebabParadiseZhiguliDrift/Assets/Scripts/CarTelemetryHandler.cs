@@ -52,16 +52,16 @@ public class CarTelemetryHandler : MonoBehaviour
 
     private void UpdateVelocity()
     {
-        _telemetryDataData.Velocity = rigidbody.velocity;
+        _telemetryDataData.Velocity = rigidbody.velocity * -50.0f;
     }
 
     private void UpdateAngles()
     {
         var euler = vehicleTransform.eulerAngles;
 
-        euler.x = (Mathf.Approximately(euler.x, 180) ? 0 : euler.x) * 15.0f;
-        euler.z = (Mathf.Approximately(euler.z, 180) ? 0 : euler.z) * 15.0f;
-        euler.y = (Mathf.Approximately(euler.y, 180) ? 0 : euler.y) * 15.0f;
+        euler.x = (Mathf.Approximately(euler.x, 180) ? 0 : euler.x) * 100.0f;
+        euler.z = (Mathf.Approximately(euler.z, 180) ? 0 : euler.z) * 100.0f;
+        euler.y = (Mathf.Approximately(euler.y, 180) ? 0 : euler.y) * 100.0f;
 
         euler.x = euler.x > 180 ? euler.x - 360 : euler.x;
         euler.z = euler.z > 180 ? euler.z - 360 : euler.z;

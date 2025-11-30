@@ -92,6 +92,7 @@
           <e p="zhiguli" t="Include" />
         </e>
         <e p="Models" t="Include" />
+        <e p="Music" t="Include" />
         <e p="Plugins" t="Include">
           <e p="2DOF" t="Include">
             <e p="ObjectTelemetryData.cs" t="Include" />
@@ -130,6 +131,54 @@
           </e>
         </e>
         <e p="Prefabs" t="Include" />
+        <e p="Samples" t="Include">
+          <e p="XR Interaction Toolkit" t="Include">
+            <e p="2.5.4" t="Include">
+              <e p="Starter Assets" t="Include">
+                <e p="DemoSceneAssets" t="Include">
+                  <e p="AffordanceThemes" t="Include" />
+                  <e p="Audio" t="Include" />
+                  <e p="Models" t="Include" />
+                  <e p="Prefabs" t="Include">
+                    <e p="Climb" t="Include" />
+                    <e p="Interactables" t="Include" />
+                    <e p="Teleport" t="Include" />
+                    <e p="UI" t="Include" />
+                  </e>
+                  <e p="Scripts" t="Include">
+                    <e p="IncrementUIText.cs" t="Include" />
+                  </e>
+                  <e p="Sprites" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="StarterAssetsSampleProjectValidation.cs" t="Include" />
+                  </e>
+                  <e p="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.asmdef" t="Include" />
+                </e>
+                <e p="Models" t="Include" />
+                <e p="Prefabs" t="Include">
+                  <e p="Controllers" t="Include" />
+                  <e p="Interactors" t="Include" />
+                  <e p="Teleport" t="Include" />
+                </e>
+                <e p="Presets" t="Include" />
+                <e p="Scripts" t="Include">
+                  <e p="ActionBasedControllerManager.cs" t="Include" />
+                  <e p="DestroySelf.cs" t="Include" />
+                  <e p="DynamicMoveProvider.cs" t="Include" />
+                  <e p="GazeInputManager.cs" t="Include" />
+                  <e p="ObjectSpawner.cs" t="Include" />
+                  <e p="XRPokeFollowAffordance.cs" t="Include" />
+                </e>
+                <e p="Tunneling Vignette" t="Include">
+                  <e p="TunnelingVignette.shader" t="Include" />
+                </e>
+                <e p="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CarController.cs" t="Include" />
@@ -150,8 +199,14 @@
           <e p="ImmersionModule" t="Include">
             <e p="CollisionSideDetector.cs" t="Include" />
           </e>
-          <e p="MainMenuModule" t="Include" />
+          <e p="MainMenuModule" t="Include">
+            <e p="CarMenu.cs" t="Include" />
+            <e p="MainMenu.cs" t="Include" />
+          </e>
           <e p="RealisticGravity.cs" t="Include" />
+          <e p="SoundModule" t="Include">
+            <e p="SoundManager.cs" t="Include" />
+          </e>
           <e p="UIModule" t="Include">
             <e p="KorobkaPeredachUI.cs" t="Include" />
             <e p="PribornajaPanelUI.cs" t="Include" />
@@ -263,6 +318,7 @@
             <e p="Readme.cs" t="Include" />
           </e>
         </e>
+        <e p="volume.json" t="Include" />
         <e p="XR" t="Include">
           <e p="Loaders" t="Include" />
           <e p="Settings" t="Include" />
@@ -8755,6 +8811,9 @@
       <e p="Unity.XR.Interaction.Toolkit.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.XR.Interaction.Toolkit.Editor.Tests.csproj" t="IncludeRecursive" />
       <e p="Unity.XR.Interaction.Toolkit.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.XR.Interaction.Toolkit.Tests.csproj" t="IncludeRecursive" />
       <e p="Unity.XR.Management.csproj" t="IncludeRecursive" />
       <e p="Unity.XR.Management.Editor.csproj" t="IncludeRecursive" />

@@ -5,36 +5,56 @@ using UnityEngine;
 
 public class KorobkaPeredachUI : MonoBehaviour
 {
-    [Header("передние и нейтралка")]
+    [Header("Передние и нейтралка")]
     [SerializeField] private Color _activeForwardColor;
     [SerializeField] private Color _passivForwardColor;
-    [Header("задняя")]
+    
+    [Header("Задняя")]
     [SerializeField] private Color _activeBackwardColor;
     [SerializeField] private Color _passivBackwardColor;
-    [Header("передачи текст")]
+    
+    [Header("Передачи текст")]
     [SerializeField] private TMP_Text[] _peredach;
 
     public void SetPeredachActive(int p)
     {
+        // Проверяем выход за границы массива
+        if (p < 0 || p >= _peredach.Length)
+        {
+            Debug.LogError($"Неверный индекс передачи: {p}. Допустимые значения: 0-{_peredach.Length - 1}");
+            return;
+        }
+
+        // Сбрасываем цвета всех передач
         for (int i = 0; i < _peredach.Length; i++)
         {
-            if (i == 6) // 0 1 2 3 4 5 R=6 N=7
+            if (_peredach[i] == null) continue;
+
+            if (i == 6) // R - задняя передача
             {
                 _peredach[i].color = _passivBackwardColor;
             }
-            else
+            else // Все остальные передачи (1-5 и N)
             {
                 _peredach[i].color = _passivForwardColor;
             }
         }
 
-        if (p == 6) // 0 1 2 3 4 5 R=6 N=7
+        // Устанавливаем цвет активной передачи
+        if (_peredach[p] != null)
         {
-            _peredach[p].color = _activeBackwardColor;
+            if (p == 6) // R - задняя передача
+            {
+                _peredach[p].color = _activeBackwardColor;
+            }
+            else // Передние передачи и нейтралка
+            {
+                _peredach[p].color = _activeForwardColor;
+            }
         }
         else
         {
-            _peredach[p].color = _activeForwardColor;
+            Debug.LogError($"Элемент передачи с индексом {p} не назначен в инспекторе");
         }
     }
 }
